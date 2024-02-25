@@ -37,7 +37,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Basis data/CATATAN BASISDATA.md",
+                            "file": "Pembelajaran HTML/CATATAN HTML.md",
                             "mode": "source",
                             "source": false
                           }
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/CATATAN BASISDATA.md",
+            "file": "Pembelajaran HTML/CATATAN HTML.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/CATATAN BASISDATA.md",
+            "file": "Pembelajaran HTML/CATATAN HTML.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/CATATAN BASISDATA.md"
+            "file": "Pembelajaran HTML/CATATAN HTML.md"
           }
         }
       }
@@ -232,12 +232,12 @@
   },
   "active": "985faa98fed919f3",
   "lastOpenFiles": [
-    "Basis data/Pengenalan basis data.md",
-    "Basis data/SELECT LANJUTAN.md",
     "Basis data/CATATAN BASISDATA.md",
+    "Basis data/SELECT LANJUTAN.md",
+    "Pembelajaran HTML/CATATAN HTML.md",
+    "Basis data/Pengenalan basis data.md",
     "Basis data/Instalasi & Query Awal Database.md",
     "Basis data/Basis data.md",
-    "Pembelajaran HTML/CATATAN HTML.md",
     "Pembelajaran HTML/4) pengenalan HTML.md",
     "Pembelajaran HTML/3) Deskripsikan html,css, javascript rumah.md",
     "Pembelajaran HTML/1) Pertemuan 1.md",
