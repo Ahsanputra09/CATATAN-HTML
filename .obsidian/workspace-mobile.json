@@ -30,21 +30,8 @@
                             "source": false
                           }
                         }
-                      },
-                      {
-                        "id": "985faa98fed919f3",
-                        "type": "leaf",
-                        "state": {
-                          "type": "markdown",
-                          "state": {
-                            "file": "Pembelajaran HTML/CATATAN HTML.md",
-                            "mode": "source",
-                            "source": false
-                          }
-                        }
                       }
-                    ],
-                    "currentTab": 1
+                    ]
                   },
                   {
                     "id": "a4e8a3f9b5f6755e",
@@ -183,7 +170,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Pembelajaran HTML/CATATAN HTML.md",
+            "file": "Basis data/SELECT LANJUTAN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +187,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Pembelajaran HTML/CATATAN HTML.md",
+            "file": "Basis data/SELECT LANJUTAN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +199,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Pembelajaran HTML/CATATAN HTML.md"
+            "file": "Basis data/SELECT LANJUTAN.md"
           }
         }
       }
@@ -230,11 +217,12 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "985faa98fed919f3",
+  "active": "8a6ad986bea4242b",
   "lastOpenFiles": [
+    "Pembelajaran HTML/CATATAN HTML.md",
+    "Pembelajaran HTML/Assets/CATATAN HTML.md",
     "Basis data/CATATAN BASISDATA.md",
     "Basis data/SELECT LANJUTAN.md",
-    "Pembelajaran HTML/CATATAN HTML.md",
     "Basis data/Pengenalan basis data.md",
     "Basis data/Instalasi & Query Awal Database.md",
     "Basis data/Basis data.md",
@@ -276,7 +264,6 @@
     "Basis data/PR data base.md",
     "IMG_20240122_110807.jpg.md",
     "Basis data/PR tugas.md",
-    "IMG_20240122_115150.jpg.md",
-    "HTML/4) baru html.md"
+    "IMG_20240122_115150.jpg.md"
   ]
 }
