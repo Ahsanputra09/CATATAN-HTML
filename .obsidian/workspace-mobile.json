@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "70c84cd7d7ed64ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "953a66d18aa6e80d",
+        "type": "split",
+        "children": [
+          {
+            "id": "a20379339a8e29be",
+            "type": "split",
+            "children": [
+              {
+                "id": "d4cbaad69dc42cdf",
+                "type": "split",
+                "children": [
+                  {
+                    "id": "cd4aa08be16b100c",
+                    "type": "tabs",
+                    "children": [
+                      {
+                        "id": "8a6ad986bea4242b",
+                        "type": "leaf",
+                        "state": {
+                          "type": "markdown",
+                          "state": {
+                            "file": "Basis data/SELECT LANJUTAN.md",
+                            "mode": "source",
+                            "source": false
+                          }
+                        }
+                      },
+                      {
+                        "id": "985faa98fed919f3",
+                        "type": "leaf",
+                        "state": {
+                          "type": "markdown",
+                          "state": {
+                            "file": "Basis data/CATATAN BASISDATA.md",
+                            "mode": "source",
+                            "source": false
+                          }
+                        }
+                      }
+                    ],
+                    "currentTab": 1
+                  },
+                  {
+                    "id": "a4e8a3f9b5f6755e",
+                    "type": "tabs",
+                    "children": [
+                      {
+                        "id": "7b93bd2309f9ec44",
+                        "type": "leaf",
+                        "state": {
+                          "type": "markdown",
+                          "state": {
+                            "file": "Basis data/Instalasi & Query Awal Database.md",
+                            "mode": "source",
+                            "backlinks": false,
+                            "source": false
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "direction": "horizontal"
+              },
+              {
+                "id": "6b42589785e8a730",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "4aa4248a46e73ee8",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Pembelajaran HTML/4) pengenalan HTML.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical"
+          },
+          {
+            "id": "16b9499c04072c36",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8e4083438e26c329",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Pembelajaran HTML/4) pengenalan HTML.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b051be80ea31c941",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4475eef21ce90247",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f1eb6c36bd69fcef",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "e8b61ae0fecf1d5e",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "740a8ebe5b485fd0",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "ccf1f613e4eec9da",
+        "type": "leaf",
+        "state": {
+          "type": "mk-path-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e4cf6cdf287bb9cc",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6dc2fc86fce8fe16",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Basis data/CATATAN BASISDATA.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": true,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6ef2e470cb12264d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Basis data/CATATAN BASISDATA.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "353a67a491503449",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Basis data/CATATAN BASISDATA.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "notion-like-tables:Create loom": false
+    }
+  },
+  "active": "985faa98fed919f3",
+  "lastOpenFiles": [
+    "Basis data/Pengenalan basis data.md",
+    "Basis data/SELECT LANJUTAN.md",
+    "Basis data/CATATAN BASISDATA.md",
+    "Basis data/Instalasi & Query Awal Database.md",
+    "Basis data/Basis data.md",
+    "Pembelajaran HTML/CATATAN HTML.md",
+    "Pembelajaran HTML/4) pengenalan HTML.md",
+    "Pembelajaran HTML/3) Deskripsikan html,css, javascript rumah.md",
+    "Pembelajaran HTML/1) Pertemuan 1.md",
+    "Pembelajaran HTML/2) Kesimpulan vidio.md",
+    "Untitled",
+    "Materi Memakai Obsidian/5_6123089390756434478.md",
+    "Pembelajaran HTML/Assets/span.jpg",
+    "Pembelajaran HTML/Assets/div.jpg",
+    "Assets basisdata/operator AND.jpg",
+    "Assets basisdata/AND.jpg",
+    "Assets basisdata",
+    "CSS/PENGENALAN CSS.md",
+    "Basis data/Assets/delete_tabel.jpg",
+    "Basis data/Assets/update_table.jpg",
+    "Basis data/Assets/Insertl1b.jpg",
+    "Basis data/Assets/insert1b.jpg",
+    "Basis data/Assets/Screenshot_2024-02-13-14-49-08-478-edit_com.termux.jpg",
+    "Basis data/Assets/Screenshot_2024-02-13-14-32-21-132-edit_com.termux.jpg",
+    "HTML/Assets/Assets",
+    "Pembelajaran HTML/Assets",
+    "Basis data/Assets",
+    "Assetss/before_button..md",
+    "Untitled.md",
+    "Vault.md",
+    "Assets.md",
+    "IMG_20240122_112616.jpg.md",
+    "Assets/membuat_database.jpg.md",
+    "Assetss",
+    "CSS/Assets",
+    "Spaces/Untitled",
+    "CSS",
+    "Assets/Assets.md",
+    "Assets/bool_tabel.jpg.md",
+    "Pasted image 20240129132103.png.md",
+    "Untitled.loom",
+    "Basis data/PR data base.md",
+    "IMG_20240122_110807.jpg.md",
+    "Basis data/PR tugas.md",
+    "IMG_20240122_115150.jpg.md",
+    "HTML/4) baru html.md"
+  ]
+}

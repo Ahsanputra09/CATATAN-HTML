@@ -1,0 +1,211 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "4943067f-596d-4093-b14c-ec7f93173fef",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "NISN",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "478a5331-169c-472a-ac9f-9c92da6c9ec8",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "NAMA",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "4113841e-396f-41bf-8cf8-28eb871c63d8",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "JENIS KELAMIN",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "403c247f-7eb4-4a31-b407-e971b5760809",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "UMUR",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "ab349f9e-b8e6-4306-9843-0d385a1d54c5",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T01:38:23.772Z",
+        "lastEditedDateTime": "2024-01-23T02:25:40.092Z",
+        "cells": [
+          {
+            "id": "1075e6ac-18e8-4e18-9c92-772802c47e09",
+            "columnId": "4943067f-596d-4093-b14c-ec7f93173fef",
+            "content": "0061352650",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "a4515511-d491-4cf5-af0e-c949177e1e9d",
+            "columnId": "478a5331-169c-472a-ac9f-9c92da6c9ec8",
+            "content": "ABD.RAHMAN.N",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "db08bd51-1025-40c7-94cb-c0dc869d3251",
+            "columnId": "4113841e-396f-41bf-8cf8-28eb871c63d8",
+            "content": "LAKI LAKI",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "958c0e11-6563-4dae-bfb1-b18e3cb12839",
+            "columnId": "403c247f-7eb4-4a31-b407-e971b5760809",
+            "content": "17",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "793b6a9c-5aa9-40bc-a84f-02d7babafae8",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T01:45:54.010Z",
+        "lastEditedDateTime": "2024-01-23T02:25:43.247Z",
+        "cells": [
+          {
+            "id": "6dea6c25-7f44-49c0-bfb6-c69cce450b1b",
+            "columnId": "4943067f-596d-4093-b14c-ec7f93173fef",
+            "content": "0071448087",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "e6062197-bad0-4399-a047-b4fb6de7da7a",
+            "columnId": "478a5331-169c-472a-ac9f-9c92da6c9ec8",
+            "content": "AHMAD ANUGRAH SATYA",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "274bd990-1352-425d-ac14-8a4446d0c121",
+            "columnId": "4113841e-396f-41bf-8cf8-28eb871c63d8",
+            "content": "LAKI LAKI",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "598f3fe7-e957-46b1-bc42-fe1df22a5444",
+            "columnId": "403c247f-7eb4-4a31-b407-e971b5760809",
+            "content": "16",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "5b7a060f-c4ee-4b6c-8e61-47050b69dbf1",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-01-23T01:45:56.025Z",
+        "lastEditedDateTime": "2024-01-23T02:25:48.269Z",
+        "cells": [
+          {
+            "id": "2ddf06c0-1d5c-45fb-a671-018f5e49b4e2",
+            "columnId": "4943067f-596d-4093-b14c-ec7f93173fef",
+            "content": "0074444833",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "787559fb-a837-4e20-b70a-7c20dcac38bb",
+            "columnId": "478a5331-169c-472a-ac9f-9c92da6c9ec8",
+            "content": "AHSAN PUTRA AHYAR",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "596727a2-e64d-4252-8e66-a071227aad60",
+            "columnId": "4113841e-396f-41bf-8cf8-28eb871c63d8",
+            "content": "LAKI LAKI",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "094aedd9-f911-43bb-8601-f07a25dbf44f",
+            "columnId": "403c247f-7eb4-4a31-b407-e971b5760809",
+            "content": "16",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}
