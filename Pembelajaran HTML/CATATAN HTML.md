@@ -49,7 +49,7 @@ Sejarah web dimulai pada tahun 1990an ketika Tim Berners Lee menciptakan konsep 
 ## JAVASCRIPT
 **JavaScript** adalah Sebuah Interaksi Dimana di Gambar Cerobong tersebut Mengeluarkan Asap, dan ada cahaya lampu dari jendela. Mengapa dia Mengeluarkan Asap karena ada Interaksi Yg dilakukan di dalam rumah tersebut seperti memasak, menghangatkan hawa rumah ketika dingin. Dan mengapa ada cahaya lampu di jendela, karena orang yang menyalakan saklar lampu.
 
-![foto rumah](Rumah.jpg)
+![foto rumah](Assets/Rumah.jpg)
 
 ---
 ---
@@ -90,7 +90,7 @@ Tag pembukaan `<head>` berisi informasi tentang halaman html sebagai dengan tag 
 Apapun tag yang berada diantara tag pembukaan
 `<body>` sampai dengan tag penutup `</body>` akan tampil di web browser.
 
-![screenshot](ssweb.jpg)
+![screenshot](Assets/ssweb.jpg)
 
 ---
 
@@ -104,7 +104,7 @@ Apapun tag yang berada diantara tag pembukaan
 ```
 ## Hasil program
 > [! faq]- hasil anatomi elemen html
-> ![hasil html](hasilss.jpg)
+> ![hasil html](Assets/hasilss.jpg)
 
 ---
 
@@ -154,7 +154,7 @@ Tag dasar `<h1>` hingga `<h6>` digunakan dalam HTML untuk membuat heading atau j
 ```
 
 #### Hasil program
-![hasil header](Header.jpg)
+![hasil header](Assets/Header.jpg)
 
 ---
 
@@ -173,7 +173,7 @@ Tag `</p>` adalah tag penutup untuk elemen paragraf `<p>` dalam HTML.
 ```
 
 #### Hasil program
-![hasil paragraf](ssweb.jpg)
+![hasil paragraf](Assets/ssweb.jpg)
 
 ---
 
@@ -190,7 +190,7 @@ Tag penutup `</b>` digunakan untuk mengakhiri efek bold atau tebal yang dimulai 
 ```
 
 #### Hasil program
-![tulisan bold](bold.jpg)
+![tulisan bold](Assets/bold.jpg)
 
 ---
 
@@ -207,7 +207,7 @@ Tag `</u>` digunakan untuk menutup atau mengakhiri efek garis bawah yang dimulai
 ```
 
 #### Hasil program
-![garis bawah](garisbawah.jpg)
+![garis bawah](Assets/garisbawah.jpg)
 
 ---
 
@@ -224,7 +224,7 @@ Tag `</i>` digunakan untuk menutup atau mengakhiri efek italik yang dimulai deng
 ```
 
 #### Hasil program
-![tulisan italic](miring.jpg)
+![tulisan italic](Assets/miring.jpg)
 
 ---
 
@@ -238,7 +238,7 @@ Tag `<br>` dalam HTML digunakan untuk menyisipkan pemutus baris (line break) dal
 ```
 
 #### Hasil program 
-![tulisan baris baru](barisbaru.jpg)
+![tulisan baris baru](Assets/barisbaru.jpg)
 
 ---
 
@@ -265,7 +265,7 @@ Sebuah rumah yang berisikan satu keluarga yaitu,ayah,ibu,dan 3 anaknya.</n>
 ```
 
 #### **Hasil program**
-![hasil align](align.jpg)
+![hasil align](Assets/align.jpg)
 
 
 ---
@@ -284,7 +284,7 @@ Html juga mempunyai Tag khusus untuk komentar.Untuk membuat komentar di HTML kit
 ```
 
 #### **Hasil program**
-![hasil komentar](komentar.jpg)
+![hasil komentar](Assets/komentar.jpg)
 
 ___
 ### **List**
@@ -323,10 +323,10 @@ Ordered listl
 
 #### **Hasil program**
 ##### **Underedlist**
-![hasil undered](undered.jpg)
+![hasil undered](Assets/undered.jpg)
 
 ##### **Orderet List**
-![foto ordered](ordered.jpg)
+![foto ordered](Assets/ordered.jpg)
 
 ---
 
@@ -346,7 +346,7 @@ Atribut Penting Lainnya dari tag `<a>` adalah `target` . Atribut target menentuk
 ```
 
 #### **Hasil program**
-![hasil program](ss_link.jpg)
+![hasil program](Assets/ss_link.jpg)
 
 ---
 
@@ -370,10 +370,10 @@ Dalam tag `<img>` terdapat juga atribut `width` dan `height` untuk mengatur ukur
 ```
 
 #### **Hasil program**
-![Hasil web negro](web_ae.jpg)
+![Hasil web negro](Assets/web_ae.jpg)
 
 #### **Screenshot hasil folder**
-![folder](ss_folder.jpg) 
+![folder](Assets/ss_folder.jpg) 
 
 ---
 ### vidio
@@ -387,7 +387,7 @@ Fitur HTML 5 mencakup dukungan audio dan video asli tanpa memerlukan flash. tag 
 ```
 
 #### **Hasil Program** 
-![hasil web vidio](ss_dero.jpg)
+![hasil web vidio](Assets/ss_dero.jpg)
 
 ---
 ### Audio
@@ -403,7 +403,7 @@ Seperti yang telah dibahas sebelumnya bahwasanya tag `<audio>` merupakan bagian 
 ```
 
 #### **Hasil Program**
-![ss](ss_audio.jpg)
+![ss](Assets/ss_audio.jpg)
 > [!INFO]
 > Konten berupa teks "Browser anda tidak mendukung elemen `<audio>`." Pada tag `<audio>` akan ditampilkan jika browser tidak mendukung elemen tersebut. Sehingga sebenarnya bagian ini dapat dihilangkan.
 
@@ -425,7 +425,7 @@ width="300" height="600"</iframe>
 ```
 
 #### **Hasil program :** 
-![ss web sekolah](web_sekolah.jpg)
+![ss web sekolah](Assets/web_sekolah.jpg)
 
 ---
 ## **Tabel**
@@ -453,7 +453,7 @@ Tabel dalam HTML didefinisikan dengan tag `<table>`.
 ```
 
 ### **Contoh hasil program**
-![hasil dasar tabel](dasar_tabel.jpg)
+![hasil dasar tabel](Assets/dasar_tabel.jpg)
 
 > [!info]  Perhatikan bahwa pada tag `<table>` terdapat sebuah atribut `<border>`. Atribut digunakan untuk memberikan nilai garis tepi dari tabel. Nilai ini dalam ukuran pixel. `border="1"`, berarti kita menginstruksikan kepada web browser bahwa tabel tersebut akan memiliki garis tepi sebesar 1 pixel. Jika tidak ditambahkan, secara default tabel tidak memiliki garis tepi.
 
@@ -496,7 +496,7 @@ Selain itu, terdapat pula beberapa atribut tabel yang penting untuk diketahui ya
 ```
 
 ### **Hasil program**
-![tabel](tabel.jpg)
+![tabel](Assets/tabel.jpg)
 
 > [! info ] perhatikan para konten elemen `<td` yang berisi `Rezeky Awalya`, hanya terdapat satu elemen `<td>` disana. Hal ini dikarenakan konten elemen `<td>` sebelumnya yaitu `SMKN 7 Makassar` dan `-` pada data `fatur` mengandung atribut `rowspan` dengan bernilai `2` yang secara otomatis mengisi data di bawahnya yakni data `Rezeky awalya`. Nilai `2` menunjukkan bahwa ada dua baris yang digabungkan menjadi satu.
 >  Konsep ini juga sama dengan apa yang terjadi pada `<th rowspan="2">nama</th>` dan `<th colspan="2">Asal institusi</th>`
@@ -535,7 +535,7 @@ Selain itu, terdapat pula beberapa atribut tabel yang penting untuk diketahui ya
 - `<td>` untuk menginput data atau membuat teks pada tabel, dan menutup tag `<td>` dengan menggunakan tag `</td>`.
 - `Rowspan="2"` untuk menggabungkan baris tabel dengan baris lainnya, dan yang bernilai `"2"`, untuk menggabungkan baris sebesar 2 baris untuk menjadi 1 baris.
 
-![hasil tugas tabel](tugastabel.jpg)
+![hasil tugas tabel](Assets/tugastabel.jpg)
 
 ---
 ## Form
@@ -635,7 +635,7 @@ Elemen `<button>` yang berada di dalam sebuah `form` akan otomatis dianggap sama
 - `<button type="submit">Kirim</button>` , `<button type="reset">Reset</button>` :  `button` kode html untuk membuat tombol, `type` untuk menentukan jenis tombol, `"submit"` untuk mengirim data form ke server untuk di proses, `reset` digunakan untuk mengembalikan formulir ke keadaan awalnya, menghapus atau mengatur ulang semua data yang telah dimasukkan oleh pengguna.
 - `<label>Pesan Pesanan Anda:</label><br>` , `<textarea></textarea>` untuk menampilkan  Pesan` Pesanan Anda` di halaman website, `<textarea></textarea>` kode ini juga berfungsi untuk Pengguna untuk dapat menulis atau memasukkan teks ke dalam textarea, dan nilai teks tersebut dapat diakses dan diolah saat formulir di-submit.
 #### Hasil program
-![hasil program](tugasform.jpg)
+![hasil program](Assets/tugasform.jpg)
 
 ---
 ### **Contoh Kode Program**
@@ -755,7 +755,7 @@ Elemen `<button>` yang berada di dalam sebuah `form` akan otomatis dianggap sama
 </form>
 ```
 ### **Contoh hasil program :**
-![hasil formulir ](formulir.jpg)
+![hasil formulir ](Assets/formulir.jpg)
 
 Beberapa atribut yang digunakan pada contoh di atas yang perlu untuk diperjelas yaitu sebagai berikut:
 - **==name==** - digunakan sebagai nama variabel yang akan diproses oleh web server (contoh menggunakan PHP).
@@ -797,7 +797,7 @@ https://jagongoding.com/web/php/web-dinamis/membuat-dan-menangani-form/
 <div>ini juga menggunakan div</div>
 ```
 #### Hasil
-![hasil menggunakan div](div.jpg)
+![hasil menggunakan div](Assets/div.jpg)
 
 ---
 ### `<span>`
@@ -809,7 +809,7 @@ Tag `<span>` adalah elemen dalam HTML yang digunakan untuk memberikan gaya atau 
 <span>ini juga menggunakan span</span>
 ```
 #### Hasil
-![hasil menggunakan span](span.jpg)
+![hasil menggunakan span](Assets/span.jpg)
 
 ---
 ---

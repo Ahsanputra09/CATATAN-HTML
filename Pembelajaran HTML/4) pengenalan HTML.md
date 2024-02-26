@@ -34,7 +34,7 @@ Tag pembukaan `<head>` berisi informasi tentang halaman html sebagai dengan tag 
 Apapun tag yang berada diantara tag pembukaan
 `<body>` sampai dengan tag penutup `</body>` akan tampil di web browser.
 
-![screenshot](ssweb.jpg)
+![screenshot](Assets/ssweb.jpg)
 
 ---
 
