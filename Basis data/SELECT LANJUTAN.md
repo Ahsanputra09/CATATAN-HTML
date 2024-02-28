@@ -8,7 +8,7 @@
 SELECT warna,pemilik FROM mobil WHERE warna="hitam" AND pemilik="Ahsan";
 ```
 ### Hasil
-![](Assets/and.jpg)
+![](Assets/AND.jpg)
 ### Analisis
 `SELECT warna,pemilik FROM mobil WHERE warna="hitam" AND pemilik="Ahsan";` : `SELECT` : Kata kunci yang digunakan untuk memilih kolom atau nilai dari tabel, `warna, pemilik` : Nama kolom yang ingin ditampilkan dalam hasil query, `FROM` : Kata kunci yang menunjukkan tabel yang digunakan untuk mengambil data, `mobil` : Nama tabel dari mana data akan diambil, `WHERE` : Kata kunci yang digunakan untuk menerapkan kondisi pada kueri, `warna="hitam"` : Kondisi di mana nilai kolom `warna` harus sama dengan "hitam", `AND` : Operator logika yang digunakan untuk menggabungkan dua atau lebih kondisi, `pemilik="Ahsan"` : Kondisi di mana nilai kolom `pemilik` harus sama dengan "Ahsan".
 ### Kesimpulan
@@ -25,7 +25,7 @@ SELECT warna,pemilik FROM mobil WHERE warna="hitam" AND pemilik="Ahsan";
 SELECT warna,pemilik FROM mobil WHERE warna="hitam" OR pemilik="Ahsan";
 ```
 ### Hasil
-![](Assets/or.jpg)
+![](Assets/OR.jpg)
 ### Analisis
 `SELECT warna,pemilik FROM mobil WHERE warna="hitam" OR pemilik="Ahsan";` : `SELECT` : Kata kunci yang digunakan untuk memilih kolom atau nilai dari tabel, `warna, pemilik` : Nama kolom yang ingin ditampilkan dalam hasil query, `FROM` : Kata kunci yang menunjukkan tabel yang digunakan untuk mengambil data, `mobil` : Nama tabel dari mana data akan diambil, `WHERE` : Kata kunci yang digunakan untuk menerapkan kondisi pada query, `warna="hitam" OR pemilik="Ahsan"` : Kondisi di mana nilai kolom `warna` harus sama dengan "hitam" atau nilai kolom `pemilik` harus sama dengan "Ahsan".
 ### Kesimpulan
@@ -42,7 +42,7 @@ SELECT warna,pemilik FROM mobil WHERE warna="hitam" OR pemilik="Ahsan";
 SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 200000;
 ```
 ### Hasil
-![](Assets/between.jpg)
+![](Assets/BETWEEN.jpg)
 ### Analisis
 `SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 200000;` : `SELECT` : Kata kunci yang digunakan untuk memilih kolom atau nilai dari tabel, `*` : Tanda asterisk yang digunakan dalam SELECT untuk menunjukkan bahwa semua kolom dalam tabel akan dipilih, `FROM` : Kata kunci yang menunjukkan tabel yang digunakan untuk mengambil data, `mobil` : Nama tabel dari mana data akan diambil, `WHERE` : Kata kunci yang digunakan untuk menerapkan kondisi pada query, `harga_rental BETWEEN 100000 AND 200000` : Kondisi di mana nilai kolom harga_rental berada di antara (termasuk) 100.000 dan 200.000.
 ### Kesimpulan
@@ -59,7 +59,7 @@ SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 200000;
 SELECT * FROM mobil WHERE harga_rental NOT BETWEEN 100000 AND 200000;
 ```
 ### Hasil
-![](Assets/not_between.jpg)
+![](Assets/NOT_BETWEEN.jpg)
 ### Analisis
 `SELECT * FROM mobil WHERE harga_rental NOT BETWEEN 100000 AND 200000;` : `SELECT` : Kata kunci yang digunakan untuk memilih kolom atau nilai dari tabel, `*` : Tanda asterisk yang digunakan dalam SELECT untuk menunjukkan bahwa semua kolom dalam tabel akan dipilih, `FROM` : Kata kunci yang menunjukkan tabel yang digunakan untuk mengambil data, `mobil` : Nama tabel dari mana data akan diambil, `WHERE` : Kata kunci yang digunakan untuk menerapkan kondisi pada query, `harga_rental NOT BETWEEN 100000 AND 200000` : Kondisi di mana nilai kolom harga_rental tidak berada di antara (termasuk) 100.000 dan 200.000.
 ### Kesimpulan
@@ -153,12 +153,15 @@ select pemilik from mobil where pemilik="Ahsan";
 ---
 ## IN
 ### Struktur query
+```MySQL
+
+```
 ### Contoh query
 ```MySQL
 SELECT * FROM mobil WHERE warna IN('pink','Hitam');
 ```
 ### Hasil
-![hasil select IN](Assets/select_in.jpg)
+![hasil select IN](Assets/select_IN.jpg)
 ### Analisis
 `SELECT * FROM mobil WHERE warna IN('pink','Hitam');` : `SELECT` : Digunakan untuk memilih kolom atau nilai dari tabel, `*` : Tanda asterisk yang digunakan dalam SELECT untuk menunjukkan bahwa semua kolom dalam tabel akan dipilih, `FROM` : Digunakan untuk menunjukkan tabel yang digunakan untuk mengambil data, `mobil` : Nama tabel dari mana data akan diambil, `WHERE` : Digunakan untuk menerapkan kondisi pada query, `warna IN('pink','Hitam')` : Kondisi di mana nilai kolom warna adalah 'pink' atau 'Hitam'.
 ### Kesimpulan
@@ -167,12 +170,15 @@ SELECT * FROM mobil WHERE warna IN('pink','Hitam');
 ---
 ## IN+AND
 ### Struktur query
+```MySQL
+
+```
 ### Contoh query
 ```MySQL
 SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental = 50000;
 ```
 ### Hasil
-![hasil in and](Assets/IN+AND.JPG)
+![hasil in and](Assets/IN_AND.JPG)
 ### Analisis
 `SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental = 50000;` : `SELECT` : Digunakan untuk memilih kolom atau nilai dari tabel, `*` : Tanda asterisk yang digunakan dalam SELECT untuk menunjukkan bahwa semua kolom dalam tabel akan dipilih, `FROM` : Digunakan untuk menunjukkan tabel yang digunakan untuk mengambil data, `mobil` : Nama tabel dari mana data akan diambil, `WHERE` : Digunakan untuk menerapkan kondisi pada query, `warna IN ('Hitam','Biru')` : Kondisi di mana nilai kolom warna adalah 'Hitam' atau 'Biru', `AND` : Operator logika yang digunakan untuk menggabungkan dua atau lebih kondisi, `harga_rental = 50000` : Kondisi di mana nilai kolom harga_rental adalah 50000.
 ### Kesimpulan
@@ -181,12 +187,15 @@ SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental = 50000;
 ---
 ## IN+OR
 ### Struktur query
+```MySQL
+
+```
 ### Contoh query
 ```MySQL
 SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') OR harga_rental = 50000;
 ```
 ### Hasil
-![hasil in or](Assets/IN+OR.JPG)
+![hasil in or](Assets/IN_OR.JPG)
 ### Analisis
 `SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') OR harga_rental = 50000;` : `SELECT` : Digunakan untuk memilih kolom atau nilai dari tabel, `*` : Tanda asterisk yang digunakan dalam SELECT untuk menunjukkan bahwa semua kolom dalam tabel akan dipilih, `FROM` : Digunakan untuk menunjukkan tabel yang digunakan untuk mengambil data, `mobil` : Nama tabel dari mana data akan diambil, `WHERE` : Digunakan untuk menerapkan kondisi pada query, `warna IN ('Hitam','Biru')` : Kondisi di mana nilai kolom warna adalah 'Hitam' atau 'Biru', `OR` : Operator logika yang digunakan untuk menggabungkan dua atau lebih kondisi, `harga_rental = 50000` : Kondisi di mana nilai kolom harga_rental adalah 50000.
 ### Kesimpulan
@@ -195,6 +204,9 @@ SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') OR harga_rental = 50000;
 ---
 ## IN+AND+OPERATOR
 ### Struktur query
+```MySQL
+
+```
 ### Contoh query
 OPERATOR ==`>`==
 ```MySQL
@@ -207,10 +219,10 @@ SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental < 100000;
 ```
 ### Hasil
 OPERATOR ==`>`==
-![hasil operator lebih dari](Assets/I-A-O_LEBIH_DARI.JPG)
+![hasil operator lebih dari](Assets/LEBIH_DARI.JPG)
 
 OPERATOR ==`<`==
-![hasil operator kurang dari](Assets/I-A-O_KURANG_DARI.JPG)
+![hasil operator kurang dari](Assets/KURANG_DARI.JPG)
 
 ### Analisis
 `SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental > 50000;` ,
@@ -223,6 +235,9 @@ bahwa kondisi `harga_rental > 50000` memilih data di mana harga sewa mobil lebih
 ## LIKE
 ### MENCARI AWALAN
 #### Struktur query
+```MySQL
+
+```
 #### Contoh query
 ```MySQL
 SELECT * FROM mobil WHERE peminjam LIKE 'T%';
@@ -237,6 +252,9 @@ SELECT * FROM mobil WHERE peminjam LIKE 'T%';
 ---
 ### MENCARI AKHIRAN
 #### Struktur query
+```MySQL
+
+```
 #### Contoh query
 ```MySQL
 SELECT * FROM mobil WHERE peminjam LIKE '%N';
@@ -251,6 +269,9 @@ SELECT * FROM mobil WHERE peminjam LIKE '%N';
 ---
 ### MENCARI AWALAN & AKHIRAN
 #### Struktur query
+```MySQL
+
+```
 #### Contoh query
 ```MySQL
 SELECT * FROM mobil WHERE peminjam LIKE 'f%r';
@@ -265,6 +286,9 @@ SELECT * FROM mobil WHERE peminjam LIKE 'f%r';
 ---
 ### MENCARI BERDASARKAN TOTAL KARAKTER
 #### Struktur query
+```MySQL
+
+```
 #### Contoh query
 ```MySQL
 SELECT * FROM mobil WHERE warna LIKE 'H____';
@@ -286,6 +310,9 @@ SELECT * FROM mobil WHERE peminjam LIKE '_____';
 ---
 ### KOMBINASI
 #### Struktur query
+```MySQL
+
+```
 #### Contoh query
 ```MySQL
 SELECT * FROM mobil WHERE warna LIKE '__t%';
@@ -307,6 +334,9 @@ select * from mobil where peminjam like '_a%';
 ---
 ### NOT LIKE
 #### Struktur query
+```MySQL
+
+```
 #### Contoh query
 ```MySQL
 SELECT * FROM mobil WHERE warna NOT LIKE 'H%';
