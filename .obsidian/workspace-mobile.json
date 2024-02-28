@@ -23,11 +23,9 @@
                         "id": "8a6ad986bea4242b",
                         "type": "leaf",
                         "state": {
-                          "type": "markdown",
+                          "type": "image",
                           "state": {
-                            "file": "Basis data/SELECT LANJUTAN.md",
-                            "mode": "source",
-                            "source": false
+                            "file": "Basis data/Assets/buat_tabel_termux.jpg"
                           }
                         }
                       }
@@ -170,7 +168,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/SELECT LANJUTAN.md",
+            "file": "Basis data/Assets/buat_tabel_termux.jpg",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -187,7 +185,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/SELECT LANJUTAN.md",
+            "file": "Basis data/Assets/buat_tabel_termux.jpg",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -199,7 +197,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/SELECT LANJUTAN.md"
+            "file": "Basis data/Assets/buat_tabel_termux.jpg"
           }
         }
       }
@@ -217,14 +215,16 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "4475eef21ce90247",
+  "active": "8a6ad986bea4242b",
   "lastOpenFiles": [
+    "Basis data/Select Lanjutan 28 February.md",
+    "Basis data/Assets/buat_tabel_termux.jpg",
+    "Basis data/SELECT LANJUTAN.md",
     "Basis data/Assets/KURANG_DARI.jpg",
     "Basis data/Assets/LEBIH_DARI.jpg",
     "Basis data/Assets/IN_OR.jpg",
     "Basis data/Assets/like-mencari_h.jpg",
     "CSS/PENGENALAN CSS.md",
-    "Basis data/SELECT LANJUTAN.md",
     "Basis data/Assets/select_IN.jpg",
     "Basis data/Pengenalan basis data.md",
     "Basis data/Instalasi & Query Awal Database.md",
@@ -241,9 +241,7 @@
     "Pembelajaran HTML/Assets/span.jpg",
     "Pembelajaran HTML/Assets/div.jpg",
     "Assets basisdata/operator AND.jpg",
-    "Assets basisdata/AND.jpg",
     "Assets basisdata",
-    "Basis data/Assets/delete_tabel.jpg",
     "HTML/Assets/Assets",
     "Pembelajaran HTML/Assets",
     "Basis data/Assets",
@@ -263,7 +261,6 @@
     "Untitled.loom",
     "Basis data/PR data base.md",
     "IMG_20240122_110807.jpg.md",
-    "Basis data/PR tugas.md",
-    "IMG_20240122_115150.jpg.md"
+    "Basis data/PR tugas.md"
   ]
 }
