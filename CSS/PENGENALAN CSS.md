@@ -1,3 +1,7 @@
+# Anatomi CSS
+# Pertemuan Pertama
+
+
 # Percobaan Kedua
 ## Kode CSS
 ```css
@@ -33,4 +37,143 @@ font-weight: bold;
 ### After
 ![before button](Assets/width_button.jpg)
 
+---
+# Cara Pemanggilan CSS
+# Selector
+
+# Materi Font
+
+## Text-align
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Text-decoration
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Text-transfrom
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Text-indent
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Letter-spacing
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Line-height
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Word-spacing
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+---
+# Materi Background
+## Background-image
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Background-size
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Background-repeat
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Background-attachment
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Background-position
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+---
+# Materi Font
+
+## Font-size
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Font-style
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Font-weight
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
+## Font-family
+### Penjelasan
+
+### Kode Program
+
+### Hasil
+
+---
 ---

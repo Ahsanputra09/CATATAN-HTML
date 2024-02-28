@@ -25,7 +25,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Pembelajaran HTML/CATATAN HTML.md",
+                            "file": "Basis data/SELECT LANJUTAN.md",
                             "mode": "source",
                             "source": false
                           }
@@ -170,7 +170,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Pembelajaran HTML/CATATAN HTML.md",
+            "file": "Basis data/SELECT LANJUTAN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Pembelajaran HTML/CATATAN HTML.md",
+            "file": "Basis data/SELECT LANJUTAN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -199,7 +199,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Pembelajaran HTML/CATATAN HTML.md"
+            "file": "Basis data/SELECT LANJUTAN.md"
           }
         }
       }
@@ -219,16 +219,18 @@
   },
   "active": "8a6ad986bea4242b",
   "lastOpenFiles": [
-    "Pembelajaran HTML/4) pengenalan HTML.md",
-    "Pembelajaran HTML/CATATAN HTML.md",
-    "Pembelajaran HTML/Assets/hasilss.jpg",
-    "Basis data/CATATAN BASISDATA.md",
+    "Basis data/Assets/like-mencari_h.jpg",
+    "CSS/PENGENALAN CSS.md",
+    "Basis data/SELECT LANJUTAN.md",
+    "Basis data/Assets/select_IN.jpg",
     "Basis data/Pengenalan basis data.md",
     "Basis data/Instalasi & Query Awal Database.md",
-    "CSS/PENGENALAN CSS.md",
-    "Pembelajaran HTML/3) Deskripsikan html,css, javascript rumah.md",
-    "Basis data/SELECT LANJUTAN.md",
+    "Basis data/CATATAN BASISDATA.md",
     "Basis data/Basis data.md",
+    "Pembelajaran HTML/CATATAN HTML.md",
+    "Pembelajaran HTML/4) pengenalan HTML.md",
+    "Pembelajaran HTML/Assets/hasilss.jpg",
+    "Pembelajaran HTML/3) Deskripsikan html,css, javascript rumah.md",
     "Pembelajaran HTML/1) Pertemuan 1.md",
     "Pembelajaran HTML/2) Kesimpulan vidio.md",
     "Untitled",
@@ -242,7 +244,6 @@
     "Basis data/Assets/update_table.jpg",
     "Basis data/Assets/Insertl1b.jpg",
     "Basis data/Assets/insert1b.jpg",
-    "Basis data/Assets/Screenshot_2024-02-13-14-49-08-478-edit_com.termux.jpg",
     "HTML/Assets/Assets",
     "Pembelajaran HTML/Assets",
     "Basis data/Assets",
