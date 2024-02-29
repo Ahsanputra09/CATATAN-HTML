@@ -23,9 +23,11 @@
                         "id": "8a6ad986bea4242b",
                         "type": "leaf",
                         "state": {
-                          "type": "image",
+                          "type": "markdown",
                           "state": {
-                            "file": "Basis data/Assets/buat_tabel_termux.jpg"
+                            "file": "Basis data/SELECT LANJUTAN.md",
+                            "mode": "source",
+                            "source": false
                           }
                         }
                       }
@@ -168,7 +170,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/Assets/buat_tabel_termux.jpg",
+            "file": "Basis data/SELECT LANJUTAN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -185,7 +187,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/Assets/buat_tabel_termux.jpg",
+            "file": "Basis data/SELECT LANJUTAN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -197,7 +199,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/Assets/buat_tabel_termux.jpg"
+            "file": "Basis data/SELECT LANJUTAN.md"
           }
         }
       }
@@ -217,14 +219,14 @@
   },
   "active": "8a6ad986bea4242b",
   "lastOpenFiles": [
+    "CSS/PENGENALAN CSS.md",
+    "Basis data/Assets/buat_tabel_termux.jpg",
     "Basis data/Select Lanjutan 28 February.md",
     "Basis data/SELECT LANJUTAN.md",
-    "Basis data/Assets/buat_tabel_termux.jpg",
     "Basis data/Assets/KURANG_DARI.jpg",
     "Basis data/Assets/LEBIH_DARI.jpg",
     "Basis data/Assets/IN_OR.jpg",
     "Basis data/Assets/like-mencari_h.jpg",
-    "CSS/PENGENALAN CSS.md",
     "Basis data/Assets/select_IN.jpg",
     "Basis data/Pengenalan basis data.md",
     "Basis data/Instalasi & Query Awal Database.md",

@@ -178,7 +178,7 @@ SELECT * FROM mobil WHERE warna IN('pink','Hitam');
 SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental = 50000;
 ```
 ### Hasil
-![hasil in and](Assets/IN_AND.JPG)
+![hasil in and](Assets/IN_AND.jpg)
 ### Analisis
 `SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental = 50000;` : `SELECT` : Digunakan untuk memilih kolom atau nilai dari tabel, `*` : Tanda asterisk yang digunakan dalam SELECT untuk menunjukkan bahwa semua kolom dalam tabel akan dipilih, `FROM` : Digunakan untuk menunjukkan tabel yang digunakan untuk mengambil data, `mobil` : Nama tabel dari mana data akan diambil, `WHERE` : Digunakan untuk menerapkan kondisi pada query, `warna IN ('Hitam','Biru')` : Kondisi di mana nilai kolom warna adalah 'Hitam' atau 'Biru', `AND` : Operator logika yang digunakan untuk menggabungkan dua atau lebih kondisi, `harga_rental = 50000` : Kondisi di mana nilai kolom harga_rental adalah 50000.
 ### Kesimpulan
@@ -195,7 +195,7 @@ SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental = 50000;
 SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') OR harga_rental = 50000;
 ```
 ### Hasil
-![hasil in or](Assets/IN_OR.JPG)
+![hasil in or](Assets/IN_OR.jpg)
 ### Analisis
 `SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') OR harga_rental = 50000;` : `SELECT` : Digunakan untuk memilih kolom atau nilai dari tabel, `*` : Tanda asterisk yang digunakan dalam SELECT untuk menunjukkan bahwa semua kolom dalam tabel akan dipilih, `FROM` : Digunakan untuk menunjukkan tabel yang digunakan untuk mengambil data, `mobil` : Nama tabel dari mana data akan diambil, `WHERE` : Digunakan untuk menerapkan kondisi pada query, `warna IN ('Hitam','Biru')` : Kondisi di mana nilai kolom warna adalah 'Hitam' atau 'Biru', `OR` : Operator logika yang digunakan untuk menggabungkan dua atau lebih kondisi, `harga_rental = 50000` : Kondisi di mana nilai kolom harga_rental adalah 50000.
 ### Kesimpulan
@@ -219,10 +219,10 @@ SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental < 100000;
 ```
 ### Hasil
 OPERATOR ==`>`==
-![hasil operator lebih dari](Assets/LEBIH_DARI.JPG)
+![hasil operator lebih dari](Assets/LEBIH_DARI.jpg)
 
 OPERATOR ==`<`==
-![hasil operator kurang dari](Assets/KURANG_DARI.JPG)
+![hasil operator kurang dari](Assets/KURANG_DARI.jpg)
 
 ### Analisis
 `SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental > 50000;` ,
