@@ -25,7 +25,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Basis data/SELECT LANJUTAN.md",
+                            "file": "CSS/PENGENALAN CSS.md",
                             "mode": "source",
                             "source": false
                           }
@@ -170,7 +170,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/SELECT LANJUTAN.md",
+            "file": "CSS/PENGENALAN CSS.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/SELECT LANJUTAN.md",
+            "file": "CSS/PENGENALAN CSS.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -199,7 +199,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/SELECT LANJUTAN.md"
+            "file": "CSS/PENGENALAN CSS.md"
           }
         }
       }
@@ -219,10 +219,13 @@
   },
   "active": "8a6ad986bea4242b",
   "lastOpenFiles": [
-    "CSS/PENGENALAN CSS.md",
-    "Basis data/Assets/buat_tabel_termux.jpg",
-    "Basis data/Select Lanjutan 28 February.md",
+    "CSS/Assets/font_style.jpg",
     "Basis data/SELECT LANJUTAN.md",
+    "CSS/PENGENALAN CSS.md",
+    "CSS/Assets/text_transform.jpg",
+    "Pembelajaran HTML/CATATAN HTML.md",
+    "Basis data/Select Lanjutan 28 February.md",
+    "Basis data/Assets/buat_tabel_termux.jpg",
     "Basis data/Assets/KURANG_DARI.jpg",
     "Basis data/Assets/LEBIH_DARI.jpg",
     "Basis data/Assets/IN_OR.jpg",
@@ -232,7 +235,6 @@
     "Basis data/Instalasi & Query Awal Database.md",
     "Basis data/CATATAN BASISDATA.md",
     "Basis data/Basis data.md",
-    "Pembelajaran HTML/CATATAN HTML.md",
     "Pembelajaran HTML/4) pengenalan HTML.md",
     "Pembelajaran HTML/Assets/hasilss.jpg",
     "Pembelajaran HTML/3) Deskripsikan html,css, javascript rumah.md",
@@ -242,7 +244,6 @@
     "Materi Memakai Obsidian/5_6123089390756434478.md",
     "Pembelajaran HTML/Assets/span.jpg",
     "Pembelajaran HTML/Assets/div.jpg",
-    "Assets basisdata/operator AND.jpg",
     "Assets basisdata",
     "HTML/Assets/Assets",
     "Pembelajaran HTML/Assets",

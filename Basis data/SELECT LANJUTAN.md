@@ -1,7 +1,7 @@
 ## AND
 ### Struktur query
 ```MySQL
-
+SELECT nama_kolom1,nama_kolom2 FROM nama_tabel WHERE kondisi(1) AND kondisi(2)
 ```
 ### Contoh query
 ```sql
@@ -18,7 +18,7 @@ SELECT warna,pemilik FROM mobil WHERE warna="hitam" AND pemilik="Ahsan";
 ## OR
 ### Struktur query
 ```MySQL
-
+SELECT nama_kolom1,nama_kolom2 FROM nama_tabel WHERE kondisi(1) OR kondisi(2)
 ```
 ### Contoh query
 ```sql
@@ -35,7 +35,7 @@ SELECT warna,pemilik FROM mobil WHERE warna="hitam" OR pemilik="Ahsan";
 ## BETWEEN
 ### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom BETWEEN nilai AND nilai;
 ```
 ### Contoh query
 ```sql
@@ -52,7 +52,7 @@ SELECT * FROM mobil WHERE harga_rental BETWEEN 100000 AND 200000;
 ## NOT BETWEEN
 ### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom NOT BETWEEN nilai AND nilai;
 ```
 ### Contoh query
 ```sql
@@ -69,7 +69,7 @@ SELECT * FROM mobil WHERE harga_rental NOT BETWEEN 100000 AND 200000;
 ## <=
 ### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom <=nilai;
 ```
 ### Contoh query
 ```sql
@@ -86,7 +86,7 @@ SELECT * FROM mobil WHERE harga_rental <=50000;
 ## >=
 ### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom >=nilai;
 ```
 ### Contoh query
 ```sql
@@ -103,7 +103,7 @@ SELECT * FROM mobil WHERE harga_rental >=50000;
 ## <>
 ### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom <> nilai;
 ```
 ### Contoh query
 ```sql
@@ -120,7 +120,7 @@ SELECT * FROM mobil WHERE harga_rental <> 50000;
 ## !=
 ### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom != nilai;
 ```
 ### Contoh query
 ```sql
@@ -138,6 +138,7 @@ SELECT * FROM mobil WHERE harga_rental != 50000;
 ### Struktur query
 ```MySQL
 
+select nama_kolom from nama_tabel WHERE kondisi;
 ```
 ### Contoh query
 ```sql
@@ -154,7 +155,7 @@ select pemilik from mobil where pemilik="Ahsan";
 ## IN
 ### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom IN ('kondisi(1)','kondisi(2)');
 ```
 ### Contoh query
 ```MySQL
@@ -171,7 +172,7 @@ SELECT * FROM mobil WHERE warna IN('pink','Hitam');
 ## IN+AND
 ### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom IN ('nilai(1)','nilai(2)') AND kondisi = nilai;
 ```
 ### Contoh query
 ```MySQL
@@ -188,7 +189,7 @@ SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') AND harga_rental = 50000;
 ## IN+OR
 ### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom IN ('nilai(1)','nilai(2)') OR kondisi = nilai;
 ```
 ### Contoh query
 ```MySQL
@@ -204,8 +205,14 @@ SELECT * FROM mobil WHERE warna IN ('Hitam','Biru') OR harga_rental = 50000;
 ---
 ## IN+AND+OPERATOR
 ### Struktur query
+OPERATOR ==`>`==
 ```MySQL
+SELECT * FROM nama_tabel WHERE nama_kolom IN ('nilai(1)','nilai(2)') AND kondisi > nilai;
+```
 
+OPERATOR ==`<`==
+```MySQL
+SELECT * FROM nama_tabel WHERE nama_kolom IN ('nilai(1)','nilai(2)') AND kondisi < nilai;
 ```
 ### Contoh query
 OPERATOR ==`>`==
@@ -236,7 +243,7 @@ bahwa kondisi `harga_rental > 50000` memilih data di mana harga sewa mobil lebih
 ### MENCARI AWALAN
 #### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom LIKE 'nilai%';
 ```
 #### Contoh query
 ```MySQL
@@ -253,7 +260,7 @@ SELECT * FROM mobil WHERE peminjam LIKE 'T%';
 ### MENCARI AKHIRAN
 #### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_tabel LIKE '%nilai';
 ```
 #### Contoh query
 ```MySQL
@@ -270,7 +277,7 @@ SELECT * FROM mobil WHERE peminjam LIKE '%N';
 ### MENCARI AWALAN & AKHIRAN
 #### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom LIKE 'huruf_awal%huruf_akhir';
 ```
 #### Contoh query
 ```MySQL
@@ -287,7 +294,11 @@ SELECT * FROM mobil WHERE peminjam LIKE 'f%r';
 ### MENCARI BERDASARKAN TOTAL KARAKTER
 #### Struktur query
 ```MySQL
+SELECT * FROM nama_tabel WHERE nama_kolom LIKE 'kondisi';
+```
 
+```MySQL
+SELECT * FROM nama_tabel WHERE nama_kolom LIKE 'kondisi';
 ```
 #### Contoh query
 ```MySQL
@@ -311,7 +322,11 @@ SELECT * FROM mobil WHERE peminjam LIKE '_____';
 ### KOMBINASI
 #### Struktur query
 ```MySQL
+SELECT * FROM nama_tabel WHERE nama_kolom LIKE '__kondisi%';
+```
 
+```MySQL
+SELECT * FROM nama_tabel WHERE nama_kolom LIKE '_kondisi%';
 ```
 #### Contoh query
 ```MySQL
@@ -335,7 +350,7 @@ select * from mobil where peminjam like '_a%';
 ### NOT LIKE
 #### Struktur query
 ```MySQL
-
+SELECT * FROM nama_tabel WHERE nama_kolom NOT LIKE 'kondisi%';
 ```
 #### Contoh query
 ```MySQL
