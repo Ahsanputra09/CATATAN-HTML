@@ -1,10 +1,6 @@
 # Anatomi CSS
-- Selector.....???
-Apa yang ingin dimodifikasi
-- Property...????
-Bagian apa yang ingin dimodifikasi
-- Property Value....???
-Bentuk modifikasinya seperti apa 
+![hasil anatomi css](Assets/anatomi_css.jpg)
+
 # Pertemuan Pertama
 ## Penjelasan
 Program di bawah merupakan kode HTML dengan sedikit tambahan CSS di dalamnya. `<style>` tag menandakan dimulainya kode CSS. Selector `p` mengarah pada elemen "p" di dalam dokumen HTML, yaitu elemen paragraf. Deklarasi gaya CSS { `color: red;` } menetapkan properti color ke nilai "`red`", sehingga teks dalam elemen paragraf akan ditampilkan dengan warna merah. Tag penutup `</style>` menandai akhir kode CSS. Di dalam `<body>`, terdapat dua elemen paragraf `<p>` dengan teks "Walcome CSS!". Karena telah dideklarasikan di CSS untuk memiliki warna merah, maka teks di dalam kedua elemen paragraf tersebut akan ditampilkan dalam warna merah.
