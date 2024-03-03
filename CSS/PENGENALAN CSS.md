@@ -1,5 +1,13 @@
 # Anatomi CSS
 ![hasil anatomi css](Assets/anatomi_css.jpg)
+## Selecktor
+Selektor dalam CSS adalah pola yang digunakan untuk memilih elemen HTML di mana aturan gaya akan diterapkan, seperti nama elemen, kelas, id, atau atribut lainnya. Ini memungkinkan Anda untuk menargetkan dan memodifikasi tampilan elemen-elemen spesifik pada halaman web Anda.
+
+## Property
+Property dalam CSS adalah atribut yang digunakan untuk mengatur tampilan elemen HTML, seperti warna, ukuran, dan tata letak.
+
+## Property Value
+Property value dalam CSS adalah nilai yang ditentukan untuk suatu properti CSS, seperti warna, ukuran, atau posisi. Misalnya, untuk properti `color`, property value bisa berupa nama warna (contohnya `red`), kode warna (contohnya `#00FF00`), atau fungsi warna (contohnya `rgb(255, 0, 0)`).
 
 # Pertemuan Pertama
 ## Penjelasan
@@ -52,7 +60,7 @@ font-weight: bold;
 ---
 ## text-align
 ### Before
-![before button](assets/before_button.jpg)
+![before button](Assets/before_button.jpg)
 ### After
 ![before button](Assets/align_button.jpg)
 
@@ -65,8 +73,6 @@ font-weight: bold;
 
 ---
 # Cara Pemanggilan CSS
-Ada beberapa cara untuk memanggil CSS dalam sebuah halaman web:
-
 ## Pemanggilan CSS Eksternal
 **Eksternal**: Ini adalah metode yang paling umum dan direkomendasikan. Anda dapat menghubungkan file CSS eksternal ke halaman HTML menggunakan tag `<link>` di dalam bagian `<head>` dari dokumen HTML, seperti yang telah dijelaskan sebelumnya.
 ### Contoh Kode Program
@@ -636,3 +642,405 @@ Properti font-family dalam CSS digunakan untuk menentukan jenis font atau kumpul
 
 ---
 ---
+
+# Box Model
+## Materi height & width
+### Penjelasan
+Dalam CSS, model kotak (box model) menggambarkan cara browser menentukan dimensi dan tata letak elemen HTML. Properti `height` dan `width` adalah bagian penting dari model kotak ini.
+
+- `height`: Properti ini digunakan untuk menentukan tinggi (vertikal) dari sebuah elemen. Anda bisa memberikan nilai dalam piksel, persentase, atau nilai lainnya seperti `auto` yang membiarkan browser menentukan tinggi elemen berdasarkan kontennya.
+  
+- `width`: Properti ini digunakan untuk menentukan lebar (horizontal) dari sebuah elemen. Sama seperti `height`, nilai dapat diberikan dalam piksel, persentase, atau menggunakan nilai seperti `auto` yang mengizinkan browser menentukan lebar elemen berdasarkan kontennya.
+
+### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      width: 100px;
+      height: 50px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+### Hasil
+![hasil height & width](Assets/height&width.jpg)
+
+### Kesimpulan
+Properti `height` digunakan untuk mengatur tinggi (vertikal) dari sebuah elemen, Properti `width` digunakan untuk mengatur lebar (horizontal) dari sebuah elemen. Keduanya merupakan bagian dari model kotak (box model) yang menentukan tata letak dan dimensi elemen HTML.
+
+## Materi border
+### border-width
+#### Penjelasan
+Properti border-width digunakan untuk mengatur ketebalan (lebar) dari batas (border) pada sebuah elemen HTML. Properti ini merupakan bagian dari model kotak (box model) yang digunakan untuk menentukan tata letak dan dimensi elemen.
+
+Anda dapat menentukan nilai untuk border-width dalam piksel, persentase, atau menggunakan kata kunci seperti thin, medium, atau thick. Nilai ini mengontrol tebalnya batas yang mengelilingi elemen.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      border-width: 5px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+![hasil border width](Assets/border_width.jpg)
+
+#### Kesimpulan
+Properti `border-width` digunakan untuk mengatur ketebalan (lebar) dari batas (border) pada sebuah elemen HTML. Ini memungkinkan pengaturan berbagai ukuran untuk batas elemen seperti garis solid, tebal, atau tipis sesuai kebutuhan desain halaman web.
+
+### border-style
+#### Penjelasan
+Properti border-style dalam CSS digunakan untuk menentukan jenis garis tepi (border) dari sebuah elemen HTML. Properti ini memiliki beberapa nilai yang dapat digunakan, antara lain:
+
+`none` : Tidak ada garis tepi.
+`solid` : Garis tepi berupa garis lurus dan solid.
+`dashed`  : Garis tepi berupa garis putus-putus.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      border-style: dashed;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+![hasil border style](Assets/border_style.jpg)
+
+#### Kesimpulan
+Secara singkat, dalam CSS, properti `border-style` digunakan untuk menentukan jenis garis tepi (border) dari sebuah elemen HTML. Properti ini mengontrol penampilan visual dari garis tepi dengan nilai seperti `solid`, `dashed`, dan lainnya.
+
+### border-color
+#### Penjelasan
+Properti border-color dalam CSS digunakan untuk menentukan warna dari tepi (border) sebuah elemen HTML. Properti ini adalah salah satu dari beberapa properti yang terkait dengan border dalam model kotak (box model).
+
+Nilai yang diterima oleh border-color bisa berupa nilai warna seperti nama warna (misalnya, "red", "blue", "green"), nilai RGB (misalnya, "rgb(255, 0, 0)"), nilai HEX (misalnya, "#ff0000"), atau nilai yang relatif seperti "transparent" untuk membuat tepi transparan.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      border-color: red;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+![hasil border color](Assets/border_color.jpg)
+
+#### Kesimpulan
+Properti `border-color` digunakan untuk menentukan warna dari tepi (border) sebuah elemen HTML dalam model kotak (box model). Anda dapat menggunakan nilai warna seperti nama warna, nilai RGB, nilai HEX, atau nilai yang relatif seperti "transparent" untuk membuat tepi transparan.
+
+### border-radius
+#### Penjelasan
+`border-radius` adalah properti CSS yang digunakan untuk menentukan sudut lengkung dari sudut-sudut sebuah elemen kotak. Dengan menggunakan nilai `10px 10px 10px 10px`, Anda menentukan radius lengkung untuk setiap sudut elemen secara terpisah, yaitu: atas kiri, atas kanan, bawah kanan, dan bawah kiri.
+Sudut-sudut `button` akan memiliki radius lengkung sebesar 10 piksel di setiap sudut, sehingga elemen tersebut memiliki tampilan sudut yang bulat.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      border-radius: 10px 10px 10px 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+![hasil border radius](Assets/border_radius.jpg)
+
+#### Kesimpulan
+`border-radius` dengan nilai `10px 10px 10px 10px` mengatur radius lengkung untuk setiap sudut dari sebuah elemen kotak menjadi 10 piksel secara terpisah: atas kiri, atas kanan, bawah kanan, dan bawah kiri.
+
+## Materi padding
+### padding-right
+#### Penjelasan
+`padding-right` adalah properti CSS yang digunakan untuk menentukan jumlah ruang kosong (padding) di sebelah kanan elemen HTML. Padding adalah jarak antara tepi dalam elemen dan kontennya. Dengan menggunakan `padding-right`, Anda dapat membuat ruang kosong di sebelah kanan elemen, yang memungkinkan untuk menciptakan tata letak yang lebih baik dan meningkatkan estetika desain halaman web.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      width: 200px ;
+      height: 100px;
+      padding-right: 100px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+![hasil padding right ](Assets/padding_right.jpg)
+
+#### Kesimpulan
+`padding-right` adalah properti CSS yang digunakan untuk menentukan jumlah ruang kosong di sebelah kanan elemen HTML, yang berguna untuk menciptakan tata letak yang lebih baik dan meningkatkan estetika desain halaman web.
+
+### padding-left
+#### Penjelasan
+`Padding-left` adalah bagian dari model kotak (box model) di CSS yang mengacu pada jarak antara tepi kiri dari sebuah elemen dan konten di dalamnya. Ini memungkinkan untuk memberikan ruang tambahan di sebelah kiri elemen tanpa mempengaruhi lebar total elemen tersebut. Dengan menggunakan properti padding left, Anda dapat membuat elemen terlihat lebih terpisah dari elemen lain di sekitarnya atau memberikan ruang tambahan untuk menyusun isi elemen dengan lebih baik.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      width: 200px ;
+      height: 100px;
+      padding-left: 100px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+![hasil padding left](Assets/padding_left.jpg)
+
+#### Kesimpulan
+`Padding-left `adalah jarak antara tepi kiri dari sebuah elemen dan konten di dalamnya dalam model kotak CSS. Ini memungkinkan penambahan ruang di sebelah kiri elemen tanpa memengaruhi lebar total elemen tersebut.
+
+### padding-bottom
+#### Penjelasan
+`padding-bottom` adalah properti CSS yang digunakan untuk menambahkan ruang polos di bagian bawah dari sebuah elemen HTML. Ini memberikan jarak antara konten dalam elemen dan batas bawah dari elemen tersebut dalam model kotak CSS. Dengan menggunakan `padding-bottom`, Anda dapat mengontrol seberapa jauh konten di dalam elemen tersebut berjarak dari batas bawahnya.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      width: 200px ;
+      height: 100px;
+      padding-bottom: 50px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+![hasil padding bottom](Assets/padding_bottom.jpg)
+
+#### Kesimpulan
+`padding-bottom` adalah properti yang digunakan untuk menambahkan ruang polos di bagian bawah sebuah elemen HTML, yang memisahkan konten dalam elemen tersebut dari batas bawahnya dalam model kotak CSS.
+
+### padding-top
+#### Penjelasan
+`padding-top` adalah properti CSS yang digunakan untuk menentukan jumlah ruang polos yang diberikan di bagian atas dari konten sebuah elemen HTML. Ini memungkinkan Anda untuk menambahkan ruang tambahan di bagian atas elemen, antara konten dan batas atasnya. Sebagai bagian dari model kotak (box model) CSS, `padding-top` akan menambahkan jarak antara konten dalam elemen dan tepi atasnya.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      width: 200px ;
+      height: 100px;
+      padding-top: 50px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+![hasil padding top](Assets/padding_top.jpg)
+
+#### Kesimpulan
+ `padding-top` dalam CSS digunakan untuk menambahkan ruang di bagian atas konten dalam sebuah elemen HTML, antara konten dan batas atas elemen tersebut.
+
+## Materi margin
+### margin-left
+#### Penjelasan
+`margin-left` adalah properti CSS yang digunakan untuk menentukan jarak (spasi) dari sisi kiri sebuah elemen terhadap elemen sebelumnya dalam tata letak halaman web. Ini memungkinkan Anda untuk mengatur ruang kosong di sebelah kiri elemen, sehingga memengaruhi tata letak keseluruhan halaman web. Semakin besar nilai `margin-left`, semakin besar pula jaraknya dari sisi kiri elemen sebelumnya.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      margin-left: 50px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+![hasil margin left](Assets/margin_left.jpg)
+
+#### Kesimpulan
+`margin-left` adalah properti CSS yang digunakan untuk menentukan jarak dari sisi kiri sebuah elemen terhadap elemen sebelumnya dalam tata letak halaman web. Semakin besar nilai `margin-left`, semakin besar pula jaraknya dari sisi kiri elemen sebelumnya.
+
+### marginn-top
+#### Penjelasan
+`margin-top` adalah properti CSS yang digunakan untuk mengatur jarak antara tepi atas (atas) dari suatu elemen dan elemen sekitarnya dalam model kotak (box model). Dengan properti ini, Anda dapat menentukan seberapa jauh elemen tersebut akan diletakkan dari elemen di atasnya. Nilai yang diberikan bisa dalam bentuk piksel, persentase, atau menggunakan nilai lainnya seperti `auto` untuk menyesuaikan secara otomatis.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      margin-top: 50px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+
+#### Hasil
+![hasil margin top](Assets/margin_top.jpg)
+
+#### Kesimpulan
+`margin-top` adalah properti yang digunakan untuk mengatur jarak antara tepi atas (atas) dari suatu elemen dan elemen sekitarnya dalam model kotak (box model).
+
+### margin-right
+#### Penjelasan
+`margin-right` adalah properti CSS yang digunakan untuk menentukan jarak (margin) antara tepi kanan sebuah elemen dengan elemen lain di sekitarnya. Ini memengaruhi tata letak horizontal dari elemen tersebut di dalam model kotak (box model) CSS.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      margin-right: 20px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button>
+    <button>Klik Aku!</button>
+  </body>
+</html>
+```
+
+#### Hasil
+**Before**
+![hasil before margin right](Assets/before_margin_right.jpg)
+
+**After**
+![hasil before margin right](Assets/after_margin_right.jpg)
+
+#### Kesimpulan
+`margin-right` adalah properti CSS yang digunakan untuk mengatur jarak antara tepi kanan suatu elemen dengan elemen lain di sekitarnya dalam model kotak CSS.
+
+### margin-bottom
+#### Penjelasan
+`margin-bottom` adalah properti CSS yang digunakan untuk menentukan jarak antara bagian bawah dari sebuah elemen dengan elemen-elemen di sekitarnya. Properti ini adalah bagian dari model kotak (box model) CSS dan digunakan untuk mengatur tata letak dan ruang di antara elemen-elemen pada halaman web. Dengan menggunakan `margin-bottom`, Anda dapat mengontrol ruang di bawah elemen untuk mencapai tata letak yang diinginkan.
+
+#### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Materi Box Model CSS</title>
+    <style>
+    button {
+      margin-top: 20px;
+    }
+    </style>
+  </head>
+  <body>
+    <button>Klik Aku!</button><br>
+    <button>Klik Aku!</button>
+    
+  </body>
+</html>
+```
+
+#### Hasil
+**Before**
+![hasil before margin top](Assets/before_margin_top.jpg)
+
+**After**
+![hasil after margin top ](Assets/after_margin_top.jpg)
+
+#### Kesimpulan
+`margin-bottom` adalah properti CSS yang digunakan untuk menentukan jarak antara bagian bawah dari sebuah elemen dengan elemen-elemen di sekitarnya dalam model kotak (box model) CSS.
