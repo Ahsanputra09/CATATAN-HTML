@@ -157,9 +157,8 @@ Nilai yang umum digunakan untuk `text-align` termasuk:
 - `right`: Alirkan teks ke kanan.
 - `center`: Alirkan teks ke tengah.
 - `justify`: Meratakan teks ke kiri dan kanan, dengan menyesuaikan spasi antarkata untuk mengisi lebar elemen.
-- `justify-all`: Sama seperti `justify`, namun juga meratakan spasi antarkata pada baris terakhir.
 
-Misalnya, menggunakan `text-align: center;` akan membuat teks berada di tengah elemen HTML yang sesuai, baik itu div, paragraf, atau elemen teks lainnya.
+Misalnya, menggunakan `text-align: right;` akan membuat teks berada di tengah elemen HTML yang sesuai, baik itu div, paragraf, atau elemen teks lainnya.
 
 ### Kode Program
 ```html
@@ -183,7 +182,6 @@ Beberapa nilai yang umum digunakan untuk `text-decoration` termasuk:
 - `none`: Menghapus semua dekorasi teks.
 - `underline`: Menambahkan garis bawah pada teks.
 - `overline`: Menambahkan garis di atas teks.
-- `line-through`: Menambahkan garis melintang pada teks, menandakan bahwa teks tersebut dianggap terhapus atau tidak relevan.
 
 Misalnya, menggunakan `text-decoration: underline;` akan menambahkan garis bawah pada teks, yang sering digunakan pada hyperlink untuk menunjukkan bahwa teks tersebut dapat diklik untuk navigasi.
 
@@ -210,7 +208,7 @@ Nilai yang umum digunakan untuk `text-transform` termasuk:
 - `lowercase`: Mengubah semua huruf menjadi huruf kecil.
 - `capitalize`: Mengkapitalkan huruf awal setiap kata.
 
-Misalnya, dengan menggunakan `text-transform: uppercase;`, semua huruf dalam teks akan diubah menjadi huruf besar. Properti ini berguna untuk menyesuaikan penampilan teks tanpa mengubah struktur teks asli.
+Misalnya, dengan menggunakan `text-transform: capitalize;`, semua huruf awal dalam teks akan diubah menjadi huruf besar. Properti ini berguna untuk menyesuaikan penampilan teks tanpa mengubah struktur teks asli.
 
 ### Kode Program
 ```html
@@ -294,7 +292,7 @@ Nilai yang umum digunakan untuk `word-spacing` termasuk:
 - Nilai positif: Meningkatkan jarak antara kata-kata.
 - Nilai negatif: Mengurangi jarak antara kata-kata.
 
-Misalnya, menggunakan `word-spacing: 2px;` akan menambahkan jarak sebesar 2 piksel di antara setiap kata dalam teks. Properti ini sering digunakan untuk menyesuaikan penampilan teks, meningkatkan keterbacaan, atau mencapai efek desain tertentu.
+Misalnya, menggunakan `word-spacing: 5px;` akan menambahkan jarak sebesar 5 piksel di antara setiap kata dalam teks. Properti ini sering digunakan untuk menyesuaikan penampilan teks, meningkatkan keterbacaan, atau mencapai efek desain tertentu.
 
 ### Kode Program
 ```html
@@ -542,7 +540,6 @@ secara konseptual, properti `font-style` dalam CSS digunakan untuk mengatur gaya
 
 - `normal`: Ini menampilkan teks dalam gaya standar atau tidak miring.
 - `italic`: Ini menampilkan teks dalam gaya miring, memberikan efek kursif pada teks.
-- `oblique`: Ini juga menampilkan teks dalam gaya miring, namun cara penampilannya mungkin berbeda tergantung pada font yang digunakan, karena mungkin tidak semua font memiliki gaya oblique.
 
 Dengan memilih salah satu dari nilai ini, Anda dapat menyesuaikan tampilan teks sesuai dengan keinginan desain halaman web Anda, apakah itu teks yang lurus dan berdiri atau teks yang miring untuk memberikan penekanan visual.
 
@@ -1044,3 +1041,1148 @@ Sudut-sudut `button` akan memiliki radius lengkung sebesar 10 piksel di setiap s
 
 #### Kesimpulan
 `margin-bottom` adalah properti CSS yang digunakan untuk menentukan jarak antara bagian bawah dari sebuah elemen dengan elemen-elemen di sekitarnya dalam model kotak (box model) CSS.
+## Tantangan Box Model
+### Deskripsi 
+### Kode
+HTML
+```HTML
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="Latihan01.css"
+  </head>
+  <body><img  align:"right" src="alter.png" width="150" height="150" >
+    <span>
+    <p>Selamat Datang<br><b>di Web Rehan!</b></p>
+    </span>
+    <button>Klik disini!</button>
+  </body>
+</html>
+```
+CSS
+```CSS
+body {
+    background-color: purple;
+}
+
+img {
+    border-radius: 100% 100%;
+    border-width:10px ;
+    border-style: solid;
+    border-color: white;
+    margin-left: 220px;
+    
+}
+
+p {
+    font-family: courier;
+    font-size: 25px;
+    color: white;
+    margin-left: ;
+    margin-top: -150px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: purple;
+    color: orangered;
+    border-color: orangered;
+    margin-top: ;
+    margin-left: 70px;
+}
+```
+### Hasil
+![](Assets/t_ngro.jpg)
+
+# Pseudo Classes
+## Hover
+### Penjelasan
+`Hover` adalah sebuah keadaan di mana pengguna mengarahkan kursor mouse ke suatu elemen di halaman web, tetapi belum mengkliknya. Ini sering digunakan untuk memberikan respons visual atau interaktif kepada pengguna saat mereka mengarahkan kursor mouse ke atas elemen tersebut. Dalam CSS, Anda dapat menggunakan pseudo-class `:hover` untuk menerapkan gaya tambahan pada elemen ketika pengguna mengarahkan kursor mouse ke atasnya. Ini memungkinkan Anda untuk membuat efek visual seperti perubahan warna, perubahan ukuran, atau efek transisi lainnya untuk meningkatkan interaktivitas dan responsivitas halaman web. 
+### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>document</title>
+    <style>
+      button {
+        width: 100px;
+        height: 50px;
+        background-color: aqua;
+        color: orangered;
+        border:2 solid black;
+      }
+      button:hover {
+        transform: skew(22deg);
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik aku</button>
+  </body>
+</html>
+```
+### Hasil
+#### Before
+![](Assets/b_h.jpg)
+#### After
+![](Assets/a_h.jpg)
+### Kesimpulan
+Kesimpulannya, hover adalah keadaan di mana pengguna mengarahkan kursor mouse ke suatu elemen di halaman web tanpa mengkliknya. Ini memungkinkan Anda untuk memberikan respons visual atau interaktif kepada pengguna, seperti mengubah gaya elemen menggunakan pseudo-class `:hover` dalam CSS. Ini merupakan cara yang umum digunakan untuk meningkatkan interaktivitas dan responsivitas halaman web.
+## active
+### Penjelasan
+`active` adalah salah satu dari beberapa pseudo-class dalam CSS yang menerapkan gaya kepada elemen saat elemen tersebut dalam keadaan aktif, yaitu saat pengguna menekan tombol mouse saat mengklik elemen tersebut. Pseudo-class `:active` sering digunakan untuk memberikan respons visual saat pengguna sedang mengklik atau menekan elemen, seperti tombol. Misalnya, Anda dapat mengubah warna latar belakang tombol saat pengguna menekannya, memberikan umpan balik visual bahwa tindakan sedang berlangsung.
+### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>document</title>
+    <style>
+      button {
+        width: 100px;
+        height: 50px;
+        background-color: aqua;
+        color: orangered;
+        border:2 solid black;
+      }
+      button:active {
+        transform: rotate(-22deg);
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik aku</button>
+  </body>
+</html>
+```
+### Hasil
+#### Before
+![](Assets/b_h.jpg)
+#### After
+![](Assets/a_a.jpg)
+### Kesimpulan
+`active` adalah salah satu pseudo-class dalam CSS yang diterapkan pada elemen saat elemen tersebut dalam keadaan aktif, yaitu saat pengguna menekan tombol mouse saat mengklik elemen tersebut. Ini sering digunakan untuk memberikan respons visual saat pengguna sedang mengklik atau menekan elemen, seperti tombol.
+## visited
+### Penjelasan
+`visited` adalah salah satu dari beberapa pseudo-class dalam CSS yang menerapkan gaya kepada elemen yang telah dikunjungi oleh pengguna. Ini berguna untuk memberikan tanda visual kepada pengguna mengenai link yang telah mereka kunjungi sebelumnya. Misalnya, Anda dapat mengubah warna atau gaya lain dari tautan yang telah dikunjungi untuk membedakannya dari tautan yang belum pernah dikunjungi.
+### Kode Program
+### Hasil
+### Kesimpulan
+`visited` adalah pseudo-class dalam CSS yang digunakan untuk menerapkan gaya kepada elemen yang telah dikunjungi oleh pengguna, seperti tautan yang telah diklik sebelumnya. Ini memungkinkan Anda untuk memberikan tanda visual kepada pengguna mengenai link yang telah mereka kunjungi sebelumnya, misalnya dengan mengubah warna atau gaya lain dari tautan yang telah dikunjungi.
+# Transition
+### transition-delay
+#### Penjelasan
+Property `transition-delay` pada CSS digunakan untuk menentukan waktu penundaan sebelum transisi dimulai. Ini memungkinkan Anda mengatur waktu tunggu antara perubahan properti CSS dan dimulainya animasi atau perubahan tersebut. Dengan menggunakan `transition-delay`, Anda dapat membuat efek transisi yang lebih kompleks dan dinamis, memungkinkan elemen-elemen web berubah secara halus dan terkoordinasi.
+#### Kode Program
+```html
+<!DOCKTYPE html> 
+<html>
+  <head>
+    <title>Transition</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100px;
+        height: 30px;
+        border-radius: 100px 100px;
+        transition-delay: 0.5s;
+      }
+      button:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik aku</button>
+  </body>
+</html>
+```
+#### Hasil
+Before
+![](Assets/before.t.jpg)
+After
+![](Assets/t-dly.jpg)
+#### Kesimpulan
+`transition-delay` pada CSS digunakan untuk menunda dimulainya transisi properti CSS setelah perubahan properti tersebut terjadi. Ini memungkinkan pengaturan waktu penundaan sebelum animasi atau perubahan dimulai, menciptakan efek transisi yang lebih dinamis dan kompleks dalam desain web.
+### transition-duration
+#### Penjelasan
+Property `transition-duration` pada CSS digunakan untuk menentukan durasi waktu yang dibutuhkan untuk menyelesaikan transisi dari satu nilai properti CSS ke nilai yang lainnya. Ini mengatur kecepatan animasi atau perubahan yang terjadi pada elemen saat transisi terjadi. Dengan menggunakan `transition-duration`, Anda dapat mengontrol seberapa cepat atau lambat perubahan tersebut terjadi, menciptakan efek yang lebih halus atau cepat dalam desain web Anda. To
+#### Kode Program
+```html
+<!DOCKTYPE html> 
+<html>
+  <head>
+    <title>Transition</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100px;
+        height: 30px;
+        border-radius: 100px 100px;
+        transition-duration: 0.5s;
+      }
+      button:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik aku</button>
+  </body>
+</html>
+```
+#### Hasil
+Before
+![](Assets/before.t.jpg)
+After
+![](Assets/t-drtion.jpg)
+#### Kesimpulan
+`transition-duration` pada CSS adalah property yang menentukan durasi waktu yang dibutuhkan untuk menyelesaikan transisi dari satu nilai properti CSS ke nilai yang lainnya. Ini mengatur kecepatan animasi atau perubahan yang terjadi pada elemen saat transisi terjadi, memungkinkan Anda menciptakan efek yang lebih halus atau cepat dalam desain web Anda.
+### transition-property
+#### Penjelasan
+Property `transition-property` pada CSS digunakan untuk menentukan properti mana yang akan mengalami transisi atau animasi ketika nilainya berubah. Dengan menggunakan `transition-property`, Anda dapat menentukan secara tepat properti CSS mana yang akan memiliki efek transisi, seperti warna, ukuran, posisi, atau properti lainnya. Ini memberikan fleksibilitas dalam mengatur transisi hanya pada properti yang diinginkan, sementara properti lainnya tetap tidak berubah.
+#### Kode Program
+```html
+<!DOCKTYPE html> 
+<html>
+  <head>
+    <title>Transition</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100px;
+        height: 30px;
+        border-radius: 100px 100px;
+        transition-property: background-color, width;
+      }
+      button:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik aku</button>
+  </body>
+</html>
+```
+#### Hasil
+Before
+![](Assets/before.t.jpg)
+After
+![](Assets/t-prop.jpg)
+#### Kesimpulan
+`transition-property` pada CSS adalah property yang digunakan untuk menentukan properti mana yang akan mengalami transisi atau animasi ketika nilainya berubah. Ini memberikan kontrol tepat terhadap elemen mana yang akan memiliki efek transisi, memungkinkan Anda untuk membuat animasi yang tepat sesuai dengan kebutuhan desain Anda.
+### transition-timing-function
+#### Penjelasan
+Property `transition-timing-function` pada CSS digunakan untuk menentukan bagaimana perubahan properti akan dipercepat atau diperlambat selama periode transisi. Dengan menggunakan `transition-timing-function`, Anda dapat mengatur kurva waktu untuk mengendalikan kecepatan animasi saat transisi berlangsung. Terdapat beberapa nilai yang dapat digunakan, seperti `ease`, `ease-in`, `ease-out`, `ease-in-out`, `linear`, dan nilai kustom menggunakan fungsi kubik-bezier. Ini memberikan fleksibilitas dalam menciptakan efek transisi yang berbeda, dari perubahan mulus hingga perubahan yang lebih tegas.
+
+#### Kode Program
+```html
+<!DOCKTYPE html> 
+<html>
+  <head>
+    <title>Transition</title>
+    <style>
+      button {
+        color: red;
+        border: 3px solid blue;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100px;
+        height: 30px;
+        border-radius: 100px 100px;
+        transition-property: width;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+      }
+      button:hover {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik aku</button>
+  </body>
+</html>
+```
+#### Hasil
+![](Assets/ttf.jpg)
+#### Kesimpulan
+`transition-timing-function` pada CSS adalah property yang digunakan untuk mengatur kurva waktu yang menentukan bagaimana perubahan properti akan dipercepat atau diperlambat selama periode transisi. Ini memungkinkan Anda untuk menciptakan berbagai efek transisi, mulai dari perubahan yang mulus hingga perubahan yang tajam, sesuai dengan kebutuhan desain Anda.
+# Transform
+## transform: scale
+### Penjelasan
+`Transform: scale` adalah properti CSS yang memungkinkan Anda untuk mengubah ukuran elemen HTML. Dengan menggunakan nilai yang diberikan, Anda dapat memperbesar atau memperkecil elemen tersebut secara proporsional terhadap ukuran aslinya.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>latihan 2</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 100px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 100px 100px;
+        
+      }
+
+      button:active {
+        transform: scale(0.75);
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik !</button>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/scale.jpg)
+### Kesimpulan
+`Transform: scale` adalah properti CSS yang memungkinkan Anda untuk memperbesar atau memperkecil elemen HTML secara proporsional terhadap ukuran aslinya menggunakan nilai tertentu.
+## transform: scaleX
+### Penjelasan
+`transform: scaleX` adalah properti CSS yang digunakan untuk mengubah skala horizontal elemen secara proporsional. Nilai 1 menyatakan ukuran asli, nilai di atas 1 akan memperbesar elemen, dan nilai di bawah 1 akan menyusutkannya.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>latihan 2</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 100px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 100px 100px;
+        
+      }
+
+      button:active {
+        transform: scaleX(0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik !</button>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/scaleX.jpg)
+### Kesimpulan
+`transform: scaleX` adalah properti CSS untuk mengubah skala horizontal elemen dengan nilai di atas 1 untuk memperbesar dan di bawah 1 untuk menyusutkan.
+## transform: rotate
+### Penjelasan
+`transform: rotate` adalah properti CSS yang digunakan untuk memutar elemen HTML secara relatif terhadap titik tengahnya atau terhadap titik yang ditentukan. Nilai yang diberikan adalah sudut dalam satuan derajat (misalnya `rotate(45deg)` untuk memutar elemen sebesar 45 derajat searah jarum jam). Ini berguna untuk membuat animasi, efek visual, atau tata letak halaman web yang dinamis.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>latihan 2</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 100px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 100px 100px;
+        
+Ini      }
+
+      button:active {
+        transform: rotate(45deg)
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik !</button>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/rotate.jpg)
+### Kesimpulan
+`transform: rotate` adalah properti CSS untuk memutar elemen HTML dengan sudut tertentu searah atau berlawanan arah jarum jam, berguna untuk animasi dan efek visual.
+## transform: skewX
+### Penjelasan
+`Transform: skewX` adalah salah satu properti CSS yang digunakan untuk memiringkan elemen sepanjang sumbu horizontal. Ini membuat elemen terlihat seolah-olah diputar di sekitar sumbu vertikal. Dengan menggunakan nilai derajat yang positif, elemen akan dimiringkan ke kanan, sedangkan nilai negatif akan membuatnya dimiringkan ke kiri.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>latihan 2</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 100px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 100px 100px;
+        
+      }
+
+      button:active {
+        transform: skewX(-25deg)
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik !</button>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/skewX.jpg)
+### Kesimpulan
+`Transform skewX` adalah properti CSS yang digunakan untuk memiringkan elemen sepanjang sumbu horizontal, menciptakan efek seolah-olah elemen diputar di sekitar sumbu vertikal dengan nilai derajat yang positif membuatnya miring ke kanan dan nilai negatif membuatnya miring ke kiri.
+## transform: skew
+### Penjelasan
+`Transformasi: skew` adalah jenis transformasi geometri dalam grafika komputer yang memiringkan objek sepanjang satu sumbu. Ini dapat dilakukan dalam dua dimensi (2D) atau tiga dimensi (3D), dan mengubah bentuk objek tanpa mengubah ukuran relatif antar objeknya.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>latihan 2</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 100px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 100px 100px;
+        
+      }
+
+      button:active {
+        transform: skew(20deg , 5deg)
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik !</button>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/skew.jpg)
+### Kesimpulan
+`Transformasi: skew` adalah jenis transformasi geometri yang memiringkan objek sepanjang satu sumbu tanpa mengubah ukuran relatif antar objeknya, digunakan dalam grafika komputer untuk menciptakan efek perspektif dan manipulasi objek.
+## transform: translate
+### Penjelasan
+`Transformasi: translate` adalah proses mengubah posisi suatu objek dalam ruang geometris tanpa mengubah bentuk atau ukurannya. Dalam transformasi ini, setiap titik pada objek digeser sejauh tertentu sesuai dengan vektor tertentu yang ditentukan. Ini sering digunakan dalam grafika komputer dan pemrosesan gambar untuk memindahkan objek dari satu lokasi ke lokasi lain.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>latihan 2</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 100px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 100px 100px;
+        
+      }
+
+      button:active {
+        transform: translate(5px , 12px);
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik !</button>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/template.jpg)
+### Kesimpulan
+`Transformasi: translate` adalah cara untuk menggeser posisi suatu objek dalam ruang geometris tanpa mengubah bentuk atau ukurannya.
+## transform: matrix
+### Penjelasan
+`Transformasi: matriks` adalah teknik dalam grafika komputer yang digunakan untuk mentransformasikan objek dalam ruang 2D atau 3D. Ini melibatkan penggunaan matriks untuk mengubah posisi, rotasi, dan skala objek. 
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>latihan 2</title>
+    <style>
+      button {
+        color: red;
+        border-color: red;
+        border-width: 3px;
+        background-color: white;
+        font-family: Arial;
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 100px;
+        height: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 100px 100px;
+        
+      }
+
+      button:active {
+        transform: matrix(0.7, -0.5, 0.5, 0.4, 0.5, 0.7);
+      }
+    </style>
+  </head>
+  <body>
+    <button>klik !</button>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/matrix.jpg)
+### Kesimpulan
+`Transformasi: matriks` adalah teknik untuk mengubah posisi, rotasi, dan skala objek dalam grafika komputer menggunakan matriks. Ini memungkinkan manipulasi efisien objek dalam ruang 2D atau 3D.
+# Flexbox
+## Display Flex
+### Penjelasan
+`display: flex;` adalah sebuah properti CSS yang digunakan untuk mengatur sebuah container agar anak-anak elemennya (child elements) menjadi flex items dan mengaktifkan model layout Flexbox. Ini memberikan kontrol yang sangat fleksibel dalam pengaturan tata letak elemen di dalam container, baik secara horizontal maupun vertikal.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>flexbox</title>
+    <style>
+      h3 {
+        display: flex;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>ini menggunakan display flex</h3>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/dis_flex.jpg)
+### Kesimpulan
+`display: flex;` mengaktifkan model layout Flexbox di sebuah container CSS, yang memungkinkan pengaturan tata letak yang fleksibel untuk elemen-elemen di dalamnya. 
+## flex-direction
+### Penjelasan
+`flex-direction` adalah sebuah properti dalam CSS yang digunakan untuk menentukan arah tata letak dari elemen-elemen dalam sebuah flex container. Nilai-nilai yang dapat digunakan antara lain:
+
+1. `row`: Menata elemen-elemen secara horizontal, dari kiri ke kanan.
+2. `row-reverse`: Menata elemen-elemen secara horizontal, dari kanan ke kiri.
+3. `column`: Menata elemen-elemen secara vertikal, dari atas ke bawah.
+4. `column-reverse`: Menata elemen-elemen secara vertikal, dari bawah ke atas.
+
+Misalnya, jika Anda mengatur `flex-direction: row;`, maka elemen-elemen di dalam flex container akan ditata secara horizontal.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>flexbox</title>
+    <style>
+      .item {
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="item">
+      <p>saya</p>
+      <p>ahsan</p>
+    </div>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/flex_direc.jpg)
+### Kesimpulan
+`flex-direction` adalah properti CSS yang menentukan arah tata letak elemen dalam sebuah flex container. Nilai-nilainya adalah `row`, `row-reverse`, `column`, dan `column-reverse`, yang masing-masing mengatur tata letak elemen secara horizontal dari kiri ke kanan, horizontal dari kanan ke kiri, vertikal dari atas ke bawah, dan vertikal dari bawah ke atas.
+## align-items
+### Penjelasan
+`align-items` adalah properti CSS yang digunakan dalam konteks flexbox. Properti ini mengontrol bagaimana item-flex (elemen di dalam kontainer flex) akan sejajar di sepanjang sumbu silang (cross-axis) dari kontainer flex.
+Beberapa nilai umum untuk `align-items` adalah:
+1. `stretch`: Item-flex akan meregang untuk mengisi seluruh ruang sumbu silang kontainer.
+2. `flex-start`: Item-flex akan diletakkan di awal kontainer pada sumbu silang.
+3. `flex-end`: Item-flex akan diletakkan di akhir kontainer pada sumbu silang.
+4. `center`: Item-flex akan diletakkan di tengah kontainer pada sumbu silang.
+5. `baseline`: Item-flex akan diletakkan pada garis dasar kontainer pada sumbu silang, yang mengacu pada basis teks dari setiap item.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>flexbox</title>
+    <style>
+      .item {
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="item">
+      <p>saya</p>
+      <p>ahsan</p>
+    </div>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/align_i.jpg)
+### Kesimpulan
+`align-items` adalah properti CSS dalam flexbox yang mengontrol penataan item-flex secara vertikal di dalam kontainer flex. Ini memungkinkan Anda untuk menyesuaikan posisi item-flex sepanjang sumbu silang, seperti meregangkannya untuk mengisi seluruh ruang atau menempatkannya di tengah, di awal, di akhir, atau pada garis dasar kontainer.
+## justify-content
+### Penjelasan
+Property `justify-content` digunakan dalam CSS Flexbox untuk mengatur cara konten dalam suatu kontainer sepanjang sumbu utama. Sumbu utama adalah arah utama dari kontainer flex, yang biasanya adalah horizontal (dari kiri ke kanan) untuk tata letak default, tetapi dapat diubah menggunakan `flex-direction`.
+Nilai yang dapat digunakan untuk `justify-content` adalah:
+1. `flex-start`: Konten diletakkan di awal kontainer.
+2. `flex-end`: Konten diletakkan di akhir kontainer.
+3. `center`: Konten diletakkan di tengah kontainer.
+4. `space-between`: Konten didistribusikan secara merata di sepanjang sumbu utama; jarak antara dua konten berturut-turut adalah sama.
+5. `space-around`: Konten didistribusikan secara merata di sepanjang sumbu utama dengan ruang yang sama di sekitar setiap konten.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>flexbox</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+        height: 250px;
+        width: 500px;
+        justify-content: center;
+      }
+      .item-1 {
+        display: flex;
+        background-color: red;
+        width:100px;
+        height: 100px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item-1"></div>
+    </div>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/just_con.jpg)
+### Kesimpulan
+`justify-content` adalah properti CSS yang digunakan dalam Flexbox untuk mengatur cara konten dalam suatu kontainer sepanjang sumbu utama. Ini memungkinkan Anda untuk mengatur posisi relatif konten dalam kontainer flex, seperti memusatkan konten, menempatkannya di awal atau akhir kontainer, atau mendistribusikan secara merata dengan jarak yang sama di antara konten-konten tersebut.
+## Tantangan flexbox
+### Kode program 
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>Belajar CSS FLEXBOX</title>
+    <style>
+      .box-container {
+        height: 250px;
+        width: 390px;
+        background-color:purple;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+      }
+      .main-container{
+        height: 220px;
+        width: 360px;
+        background-color:transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .hero-contaoner{
+        height: 200px;
+        width: 180px;
+        background-color:transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .box-item-1 {
+        background-color: red;
+        height: 105px;
+        border-radius: 100% 100%;
+        border-width:7px ;
+        border-style: solid;
+        border-color: white;
+        height: 150px;
+        width: 150px;
+      }
+      .box-item-2 {
+        background-color: transparent;
+        font-family: courier;
+        font-size: 25px;
+        color: white;
+        width: 180px;
+        height: 75px;
+        margin-top: 50px;
+      }
+      .box-item-3 {
+      width: 90px;
+      height: 45px;
+      background-color: transparent;
+      color: orangered;
+      font-size: 12px;
+      border-color: orangered;
+      margin-left: 70px;
+      margin-bottom: 20px;
+      }
+      .box-item-3:hover {
+        transform: rotate(360deg);
+        background-color: transparent;
+        height: 205px;
+        width: 100px;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="box-container">
+      <div class="main-container">
+        <div class="hero-contaoner">
+          <p class="item box-item-2">Selamat Datang<br><b>di Web Ahsan!</b></p>
+          <button class="item box-item-3">Klik disini!</button>
+        </div>
+      <img class="box-item-1" src="alter.png" alt="buset">
+      </div>
+    </div>
+  </body>
+</html>
+```
+### Hasil
+![](Assets/b_flex.jpg)
+
+![](Assets/a_flex.jpg)
+# Position
+## Position Relative
+### Penjelasan
+`position: relative;` adalah salah satu nilai dari property CSS `position`. Ketika Anda mengatur sebuah elemen dengan `position: relative;`, itu akan tetap berada dalam aliran dokumen, tetapi posisinya dapat diatur secara relatif terhadap posisi aslinya di dalam tata letak normal. Ketika Anda memberikan sebuah elemen `position: relative;`, Anda dapat menggunakan properti `top`, `right`, `bottom`, dan `left` untuk menggeser elemen tersebut dari posisi aslinya. Perubahan posisi ini tidak akan memengaruhi posisi elemen-elemen lain di halaman.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>tentang position</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        height: 200px;
+        width: 350px;
+      }
+      .item-1 {
+        display: flex;
+        background-color: green;
+        width:80px;
+        height: 80px;
+        position: relative;
+        top: 70px;
+      }
+      .item-2 {
+        display: flex;
+        background-color: red;
+        width:80px;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item-1"><p>1</p></div>
+      <div class="item-2"><p>2</p></div>
+      
+    </div>
+  </body>
+</html>
+```
+### Hasil
+Before
+![](Assets/bp.jpg)
+
+After
+![](Assets/pr.jpg)
+### Kesimpulan
+`position: relative;` adalah properti CSS yang mengatur posisi sebuah elemen secara relatif terhadap posisi aslinya di dalam tata letak normal. Ini memungkinkan Anda untuk menggeser elemen secara relatif menggunakan properti `top`, `right`, `bottom`, dan `left`, tanpa memengaruhi posisi elemen-elemen lain di halaman.
+## Position Absolute
+### Penjelasan
+`position: absolute;` adalah salah satu nilai dari property CSS `position`. Ketika Anda mengatur sebuah elemen dengan `position: absolute;`, itu akan dihapus dari aliran dokumen normal dan ditempatkan relatif terhadap elemen induk yang paling dekat yang memiliki properti `position` yang tidak bernilai `static` (yaitu, `relative`, `absolute`, `fixed`, atau `sticky`). Elemen yang memiliki `position: absolute;` tidak lagi memengaruhi posisi elemen-elemen lain di dalam dokumen, dan posisinya dapat diatur secara bebas menggunakan properti `top`, `right`, `bottom`, dan `left`. Hal ini memungkinkan Anda untuk menempatkan elemen di mana saja di dalam dokumen, terlepas dari posisi relatif elemen-elemen lainnya.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>tentang position</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        height: 200px;
+        width: 350px;
+      }
+      .item-1 {
+        display: flex;
+        background-color: green;
+        width:80px;
+        height: 80px;
+        position: absolute;
+        top: 70px;
+      }
+      .item-2 {
+        display: flex;
+        background-color: red;
+        width:80px;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item-1"><p>1</p></div>
+      <div class="item-2"><p>2</p></div>
+      
+    </div>
+  </body>
+</html>
+```
+### Hasil
+Before
+![](Assets/bp.jpg)
+
+After
+![](Assets/pa.jpg)
+### Kesimpulan
+`position: absolute;` adalah properti CSS yang menghapus sebuah elemen dari aliran dokumen normal dan menempatkannya relatif terhadap elemen induk yang memiliki properti `position` yang tidak bernilai `static`. Ini memungkinkan Anda untuk menempatkan elemen di mana saja di dalam dokumen, terlepas dari posisi relatif elemen-elemen lainnya, menggunakan properti `top`, `right`, `bottom`, dan `left`.
+## Position Fixed
+### Penjelasan
+`position: fixed;` adalah salah satu nilai dari property CSS `position`. Ketika Anda mengatur sebuah elemen dengan `position: fixed;`, itu akan dihapus dari aliran dokumen normal dan ditempatkan relatif terhadap viewport browser. Ini berarti elemen akan tetap berada di posisi yang sama di layar bahkan saat Anda menggulir halaman. Elemen yang memiliki `position: fixed;` tidak lagi memengaruhi posisi elemen-elemen lain di dalam dokumen, dan posisinya dapat diatur secara bebas menggunakan properti `top`, `right`, `bottom`, dan `left`.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>tentang position</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        height: 200px;
+        width: 350px;
+      }
+      .item-1 {
+        display: flex;
+        background-color: green;
+        width:80px;
+        height: 80px;
+        position: fixed;
+        top: 70px;
+      }
+      .item-2 {
+        display: flex;
+        background-color: red;
+        width:80px;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item-1"><p>1</p></div>
+      <div class="item-2"><p>2</p></div>
+      
+    </div>
+  </body>
+</html>
+```
+### Analisis
+Before
+![](Assets/bp.jpg)
+
+After
+![](Assets/pf.jpg)
+### Kesimpulan
+`position: fixed;` adalah properti CSS yang menghapus sebuah elemen dari aliran dokumen normal dan menempatkannya relatif terhadap viewport browser. Ini membuat elemen tetap berada di posisi yang sama di layar bahkan saat pengguna menggulir halaman, dan posisinya dapat diatur menggunakan properti `top`, `right`, `bottom`, dan `left`.
+##Position sticky
+### Penjelasan
+`position: sticky;` adalah salah satu nilai dari property CSS `position`. Ini memungkinkan elemen untuk menempel pada posisi tertentu di dalam kontainer saat pengguna menggulir, dan kemudian berhenti menempel ketika mencapai batas tertentu dalam kontainer. Elemen dengan `position: sticky;` akan berperilaku seperti `position: relative;` sampai titik scroll mencapai batas yang ditentukan (biasanya didefinisikan menggunakan properti `top`, `right`, `bottom`, atau `left`). Setelah mencapai batas tersebut, elemen akan tetap berada pada posisi yang telah ditentukan, terlihat seperti menempel di layar.
+### Kode Program
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>tentang position</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        height: 200px;
+        width: 350px;
+      }
+      .item-1 {
+        display: flex;
+        background-color: green;
+        width:80px;
+        height: 80px;
+        position: sticky;
+        top: 1000px;
+      }
+      .item-2 {
+        display: flex;
+        background-color: red;
+        width:80px;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item-1"><p>1</p></div>
+      <div class="item-2"><p>2</p></div>
+      
+    </div>
+  </body>
+</html>
+```
+### Hasil
+Before
+![](Assets/bp.jpg)
+
+After
+![](Assets/ps.jpg)
+### Kesimpulan
+`position: sticky;` adalah properti CSS yang memungkinkan elemen untuk menempel pada posisi tertentu di dalam kontainer saat pengguna menggulir, dan kemudian berhenti menempel ketika mencapai batas tertentu dalam kontainer. Ini berguna untuk membuat elemen tertentu seperti header atau sidebar tetap terlihat saat pengguna menggulir konten di dalam sebuah kontainer.
+## Tantangan Position
+## Deskripsi
+## Kode
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tantangan Position</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            height: 458px;
+            width: 300px;
+            border-radius: 10px;
+            margin-top: 150px;
+            margin-left: 550px;
+        }
+        .item1{
+            background-color: red;
+            height: 250px;
+            width: 300px;
+            border-radius: 10px 10px 0px 0px;
+        }
+        img {
+            width:100%;
+            height:100%;
+            border-radius: 5px 5px 0px 0px;
+        }
+        .item2{
+            background-color: whitesmoke;
+            height: 175px;
+            width: 300px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .text1 {
+            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 20px;
+        }
+        .text2 {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 20px;
+        }
+        .text3 {
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+        }   
+        .item3 {
+            display: flex;
+            flex-direction: row;
+            padding: 2px;
+            background-color: bisque;
+            border-radius: 0px 0px 5px 5px;
+            width: 296px;
+            justify-content: space-between;
+        }
+        .text4 {
+            margin-left: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button {
+            width: 62px;
+            height: 55px;
+            background-color: transparent;
+            border: none;
+            border-radius: 100px 100px 100px 100px;
+            position: fixed;
+            background-repeat: no-repeat;
+            top: 350px;
+            right: 520px;
+        }
+        .like img {
+            border-radius: 100% ;
+            
+        }
+        .item3 img {
+            height: 30px;
+            width: 30px;
+            border-radius: 100% 100% ;
+            align-items: center;
+            justify-items: center;
+            margin-right: 25px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <img src="5.jpg.jpeg" alt="" >
+        </div>
+        <div class="item2">
+            <p class="text1">Thursday,July 16, 2015</p>
+            <h4 class="text2">Lorem ipsum dolor sit amet consectetur.</h4>
+            <p class="text3">Lorem ipsum dolor sit amet the,  consectetur adipisicing.</p>
+        </div>
+        <div class="item3">
+            <p class="text4">Read more</p>
+            <img src="1.jpeg" alt="">
+        </div>
+          <div class="like">
+              <button>
+              <img src="3.png" alt="">
+            </button>
+        </div>
+    </div>
+</body>
+</html>
+```
+## Hasil
+![](Assets/t_p.jpg)

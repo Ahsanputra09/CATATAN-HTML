@@ -373,7 +373,7 @@ Pernyataan SQL `SELECT nama_depan FROM pelanggan WHERE Id_Pelanggan=1;` secara j
 
 ## Struktur query 
 ```sql
-Mysql > UPDATE nama_tabel SET nama_kolom WHERE kondisi;
+UPDATE nama_tabel SET nama_kolom WHERE kondisi;
 ```
 
 ## Contoh query 
