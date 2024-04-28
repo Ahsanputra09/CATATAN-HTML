@@ -1042,7 +1042,12 @@ Sudut-sudut `button` akan memiliki radius lengkung sebesar 10 piksel di setiap s
 #### Kesimpulan
 `margin-bottom` adalah properti CSS yang digunakan untuk menentukan jarak antara bagian bawah dari sebuah elemen dengan elemen-elemen di sekitarnya dalam model kotak (box model) CSS.
 ## Tantangan Box Model
-### Deskripsi 
+### Deskripsi
+- Terdapat elemen `body` dengan warna latar belakang ungu.
+- Latar belakang halaman diatur menjadi warna ungu melalui CSS.
+- Sebuah gambar dengan path "alter.png" ditampilkan dengan ukuran 150x150 piksel. Gambar tersebut diberi border putih dengan lebar 10 piksel dan bentuk lingkaran menggunakan properti CSS `border-radius`.
+- Teks "Selamat Datang" dan "di Web Rehan!" ditampilkan dalam sebuah paragraf dengan menggunakan font Courier, ukuran 25px, dan warna putih. Teks tersebut diberi jarak menggunakan properti `margin-left` dan `margin-top`.
+- Terdapat sebuah tombol dengan teks "Klik disini!" yang memiliki warna latar belakang dan teks oranye, serta border oranye. Tombol tersebut diberi jarak menggunakan properti `margin-top` dan `margin-left`.
 ### Kode
 HTML
 ```HTML
@@ -1169,7 +1174,31 @@ Kesimpulannya, hover adalah keadaan di mana pengguna mengarahkan kursor mouse ke
 ### Penjelasan
 `visited` adalah salah satu dari beberapa pseudo-class dalam CSS yang menerapkan gaya kepada elemen yang telah dikunjungi oleh pengguna. Ini berguna untuk memberikan tanda visual kepada pengguna mengenai link yang telah mereka kunjungi sebelumnya. Misalnya, Anda dapat mengubah warna atau gaya lain dari tautan yang telah dikunjungi untuk membedakannya dari tautan yang belum pernah dikunjungi.
 ### Kode Program
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title> Pseudo-class:visited</title>
+<style>
+a {
+  color: red;
+}
+ a:visited {
+  color: purple;
+}
+</style>
+</head>
+<body>
+<p>Kunjungi tautan di bawah ini:</p>
+<ul>
+  <li><a href="https://www.example.com">Tautan 1</a></li>
+  <li><a href="https://www.example.com">Tautan 2</a></li>
+</ul>
+</body>
+</html>
+```
 ### Hasil
+![](Assets/visited.jpg)
 ### Kesimpulan
 `visited` adalah pseudo-class dalam CSS yang digunakan untuk menerapkan gaya kepada elemen yang telah dikunjungi oleh pengguna, seperti tautan yang telah diklik sebelumnya. Ini memungkinkan Anda untuk memberikan tanda visual kepada pengguna mengenai link yang telah mereka kunjungi sebelumnya, misalnya dengan mengubah warna atau gaya lain dari tautan yang telah dikunjungi.
 # Transition
@@ -1628,10 +1657,11 @@ Ini      }
 ### Kesimpulan
 `Transformasi: matriks` adalah teknik untuk mengubah posisi, rotasi, dan skala objek dalam grafika komputer menggunakan matriks. Ini memungkinkan manipulasi efisien objek dalam ruang 2D atau 3D.
 # Flexbox
-## Display Flex
-### Penjelasan
+## Flexbox container
+### Display Flex
+#### Penjelasan
 `display: flex;` adalah sebuah properti CSS yang digunakan untuk mengatur sebuah container agar anak-anak elemennya (child elements) menjadi flex items dan mengaktifkan model layout Flexbox. Ini memberikan kontrol yang sangat fleksibel dalam pengaturan tata letak elemen di dalam container, baik secara horizontal maupun vertikal.
-### Kode Program
+#### Kode Program
 ```html
 <!DOCKTYPE html>
 <html>
@@ -1649,12 +1679,12 @@ Ini      }
   </body>
 </html>
 ```
-### Hasil
+#### Hasil
 ![](Assets/dis_flex.jpg)
-### Kesimpulan
+#### Kesimpulan
 `display: flex;` mengaktifkan model layout Flexbox di sebuah container CSS, yang memungkinkan pengaturan tata letak yang fleksibel untuk elemen-elemen di dalamnya. 
-## flex-direction
-### Penjelasan
+### flex-direction
+#### Penjelasan
 `flex-direction` adalah sebuah properti dalam CSS yang digunakan untuk menentukan arah tata letak dari elemen-elemen dalam sebuah flex container. Nilai-nilai yang dapat digunakan antara lain:
 
 1. `row`: Menata elemen-elemen secara horizontal, dari kiri ke kanan.
@@ -1663,7 +1693,7 @@ Ini      }
 4. `column-reverse`: Menata elemen-elemen secara vertikal, dari bawah ke atas.
 
 Misalnya, jika Anda mengatur `flex-direction: row;`, maka elemen-elemen di dalam flex container akan ditata secara horizontal.
-### Kode Program
+#### Kode Program
 ```html
 <!DOCKTYPE html>
 <html>
@@ -1685,12 +1715,12 @@ Misalnya, jika Anda mengatur `flex-direction: row;`, maka elemen-elemen di dalam
   </body>
 </html>
 ```
-### Hasil
+#### Hasil
 ![](Assets/flex_direc.jpg)
-### Kesimpulan
+#### Kesimpulan
 `flex-direction` adalah properti CSS yang menentukan arah tata letak elemen dalam sebuah flex container. Nilai-nilainya adalah `row`, `row-reverse`, `column`, dan `column-reverse`, yang masing-masing mengatur tata letak elemen secara horizontal dari kiri ke kanan, horizontal dari kanan ke kiri, vertikal dari atas ke bawah, dan vertikal dari bawah ke atas.
-## align-items
-### Penjelasan
+### align-items
+#### Penjelasan
 `align-items` adalah properti CSS yang digunakan dalam konteks flexbox. Properti ini mengontrol bagaimana item-flex (elemen di dalam kontainer flex) akan sejajar di sepanjang sumbu silang (cross-axis) dari kontainer flex.
 Beberapa nilai umum untuk `align-items` adalah:
 1. `stretch`: Item-flex akan meregang untuk mengisi seluruh ruang sumbu silang kontainer.
@@ -1698,7 +1728,7 @@ Beberapa nilai umum untuk `align-items` adalah:
 3. `flex-end`: Item-flex akan diletakkan di akhir kontainer pada sumbu silang.
 4. `center`: Item-flex akan diletakkan di tengah kontainer pada sumbu silang.
 5. `baseline`: Item-flex akan diletakkan pada garis dasar kontainer pada sumbu silang, yang mengacu pada basis teks dari setiap item.
-### Kode Program
+#### Kode Program
 ```html
 <!DOCKTYPE html>
 <html>
@@ -1721,12 +1751,12 @@ Beberapa nilai umum untuk `align-items` adalah:
   </body>
 </html>
 ```
-### Hasil
+#### Hasil
 ![](Assets/align_i.jpg)
-### Kesimpulan
+#### Kesimpulan
 `align-items` adalah properti CSS dalam flexbox yang mengontrol penataan item-flex secara vertikal di dalam kontainer flex. Ini memungkinkan Anda untuk menyesuaikan posisi item-flex sepanjang sumbu silang, seperti meregangkannya untuk mengisi seluruh ruang atau menempatkannya di tengah, di awal, di akhir, atau pada garis dasar kontainer.
-## justify-content
-### Penjelasan
+### justify-content
+#### Penjelasan
 Property `justify-content` digunakan dalam CSS Flexbox untuk mengatur cara konten dalam suatu kontainer sepanjang sumbu utama. Sumbu utama adalah arah utama dari kontainer flex, yang biasanya adalah horizontal (dari kiri ke kanan) untuk tata letak default, tetapi dapat diubah menggunakan `flex-direction`.
 Nilai yang dapat digunakan untuk `justify-content` adalah:
 1. `flex-start`: Konten diletakkan di awal kontainer.
@@ -1734,7 +1764,7 @@ Nilai yang dapat digunakan untuk `justify-content` adalah:
 3. `center`: Konten diletakkan di tengah kontainer.
 4. `space-between`: Konten didistribusikan secara merata di sepanjang sumbu utama; jarak antara dua konten berturut-turut adalah sama.
 5. `space-around`: Konten didistribusikan secara merata di sepanjang sumbu utama dengan ruang yang sama di sekitar setiap konten.
-### Kode Program
+#### Kode Program
 ```html
 <!DOCKTYPE html>
 <html>
@@ -1765,11 +1795,352 @@ Nilai yang dapat digunakan untuk `justify-content` adalah:
   </body>
 </html>
 ```
-### Hasil
+#### Hasil
 ![](Assets/just_con.jpg)
-### Kesimpulan
+#### Kesimpulan
 `justify-content` adalah properti CSS yang digunakan dalam Flexbox untuk mengatur cara konten dalam suatu kontainer sepanjang sumbu utama. Ini memungkinkan Anda untuk mengatur posisi relatif konten dalam kontainer flex, seperti memusatkan konten, menempatkannya di awal atau akhir kontainer, atau mendistribusikan secara merata dengan jarak yang sama di antara konten-konten tersebut.
+## flexbox items
+### Order
+#### Penjelasan
+Dalam CSS Flexbox, properti `order` digunakan untuk mengontrol urutan tampilan elemen-elemen di dalam flex container. Secara default, elemen-elemen dalam flex container akan diatur berdasarkan urutan mereka dalam kode HTML. Namun, dengan properti `order`, Anda dapat mengubah urutan tampilan elemen-elemen tersebut tanpa mengubah struktur HTML. Properti `order` digunakan untuk menentukan nilai urutan relatif dari sebuah elemen di dalam flex container. Nilai `order` secara default adalah 0. Nilai yang lebih rendah atau negatif akan menempatkan elemen tersebut lebih awal dalam urutan, sedangkan nilai yang lebih tinggi akan menempatkannya lebih akhir.
+#### Kode
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order di Flexbox</title>
+<style>
+  .container {
+    display: flex;
+  }
+
+  .item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .item1 {
+    order: 3;
+  }
+
+  .item2 {
+    order: 1;
+  }
+
+  .item3 {
+    order: 2;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+</body>
+</html>
+```
+#### Hasil
+![](Assets/order.jpg)
+#### Kesimpulan
+Properti `order` dalam CSS Flexbox digunakan untuk mengatur urutan tampilan elemen-elemen di dalam flex container. Nilai `order` menentukan urutan relatif elemen-elemen, di mana nilai yang lebih rendah atau negatif akan menempatkan elemen tersebut lebih awal dalam urutan, sedangkan nilai yang lebih tinggi akan menempatkannya lebih akhir. Properti `order` memungkinkan pengaturan urutan tampilan elemen tanpa mengubah struktur HTML, sehingga memberikan fleksibilitas dalam desain tata letak halaman web.
+### flex-grow
+#### Penjelasan
+Properti `flex-grow` dalam CSS Flexbox digunakan untuk menentukan seberapa banyak ruang tambahan yang akan diberikan kepada sebuah item flex jika ada ruang yang tersisa di dalam flex container setelah item-item lain telah mendapatkan ukuran yang sesuai. Nilai `flex-grow` menentukan seberapa besar proporsi dari ruang tambahan tersebut akan dialokasikan kepada item tersebut. Secara default, nilai `flex-grow` adalah 0, yang berarti item tidak akan tumbuh untuk mengisi ruang tambahan. Ketika nilai `flex-grow` diberikan nilai selain 0, item tersebut akan memanfaatkan ruang tambahan sesuai dengan nilai `flex-grow`-nya. Nilai yang lebih tinggi akan memberikan item lebih banyak ruang tambahan untuk tumbuh dibandingkan dengan item lain yang memiliki nilai `flex-grow` lebih rendah.
+#### Kode
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>flex-grow di Flexbox</title>
+<style>
+  .container {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: lightgray;
+  }
+
+  .item {
+    margin: 10px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .item1 {
+    flex-grow: 1;
+  }
+
+  .item2 {
+    flex-grow: 2;
+  }
+
+  .item3 {
+    
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+</body>
+</html>
+
+```
+#### Hasil
+![](Assets/fgrow.jpg)
+#### Kesimpulan
+Properti `flex-grow` dalam CSS Flexbox digunakan untuk menentukan seberapa banyak ruang tambahan yang akan diberikan kepada sebuah item flex jika ada ruang yang tersisa di dalam flex container. Nilai `flex-grow` menentukan proporsi dari ruang tambahan yang akan dialokasikan kepada item tersebut, dengan nilai yang lebih tinggi memberikan item lebih banyak ruang tambahan untuk tumbuh dibandingkan dengan item lain yang memiliki nilai `flex-grow` lebih rendah atau default. Ini memungkinkan pengaturan fleksibilitas dalam tata letak item-item dalam flex container.
+### flex-shrink
+#### Penjelasan
+Properti `flex-shrink` dalam CSS Flexbox digunakan untuk menentukan seberapa besar sebuah item flex dapat mengecil jika ruang kontainer kurang dari total ukuran elemen-elemen di dalamnya. Properti ini memungkinkan kontrol terhadap tingkat pengecilan item ketika ruang tersedia tidak cukup untuk menampung semua item secara keseluruhan. Nilai `flex-shrink` menentukan faktor pengecilan relatif dari sebuah item jika ruang kontainer tidak mencukupi. Nilai default adalah 1, yang berarti item akan mengecil sesuai dengan proporsinya jika ruang tidak mencukupi. Nilai yang lebih tinggi akan memberikan item lebih sedikit ruang untuk mengecil, sementara nilai yang lebih rendah akan memberikan item lebih banyak ruang untuk mengecil.
+#### Kode
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>flex-shrink di Flexbox</title>
+<style>
+  .container {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: lightgray;
+  }
+
+  .item {
+    margin: 10px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .item1 {
+    flex-shrink: 1;
+  }
+
+  .item2 {
+    flex-shrink: 0;
+  }
+
+  .item3 {
+    flex-shrink: 2;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+</body>
+</html>
+
+```
+#### Hasil
+![](Assets/fshrink.jpg)
+#### Kesimpulan
+Properti `flex-shrink` dalam CSS Flexbox digunakan untuk mengatur seberapa besar sebuah item dapat mengecil jika ruang kontainer tidak mencukupi untuk menampung semua item secara keseluruhan. Nilai `flex-shrink` menentukan faktor pengecilan relatif dari sebuah item, dengan nilai default adalah 1. Nilai yang lebih tinggi akan membuat item lebih sedikit mengecil, sementara nilai yang lebih rendah akan membuat item lebih banyak mengecil jika ruang tidak mencukupi. Properti ini memberikan fleksibilitas dalam mengatur responsivitas tata letak item di dalam flex container.
+### flex-basis
+#### Penjelasan
+Properti `flex-basis` dalam CSS Flexbox digunakan untuk menentukan ukuran awal (basis) dari sebuah item flex sebelum item tersebut diperbesar atau diperkecil oleh `flex-grow` atau `flex-shrink`. Properti ini menentukan lebar atau tinggi awal item flex sebelum proporsi ruang tambahan atau kurang diterapkan. Nilai `flex-basis` dapat ditentukan dalam satuan ukuran seperti piksel, persentase, atau nilai absolut lainnya, atau dalam nilai relatif seperti `auto` atau `content`. Nilai default adalah `auto`, yang mengizinkan item untuk menyesuaikan ukurannya berdasarkan konten di dalamnya.
+#### Kode
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>flex-basis di Flexbox</title>
+<style>
+  .container {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: lightgray;
+  }
+
+  .item {
+    margin: 10px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .item1 {
+    flex-basis: 100px; 
+  }
+
+  .item2 {
+    flex-basis: 50%; 
+  }
+
+  .item3 {
+    flex-basis: auto;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+</body>
+</html>
+
+```
+#### Hasil
+![](Assets/fbasis.jpg)
+#### Kesimpulan
+Properti `flex-basis` dalam CSS Flexbox digunakan untuk menentukan ukuran awal (basis) dari sebuah item flex sebelum item tersebut diperbesar atau diperkecil oleh `flex-grow` atau `flex-shrink`. Properti ini menentukan lebar atau tinggi awal item flex sebelum proporsi ruang tambahan atau kurang diterapkan. Nilai `flex-basis` dapat ditentukan dalam satuan ukuran seperti piksel, persentase, atau nilai absolut lainnya, atau dalam nilai relatif seperti `auto` atau `content`. Properti ini memberikan kontrol atas ukuran awal item flex sebelum dilakukan penyesuaian oleh flex container.
+### align-self
+#### Penjelasan
+Properti `align-self` dalam CSS Flexbox digunakan untuk mengontrol penempatan vertikal (alignment) dari sebuah item flex dalam sumbu lintang (cross-axis) terhadap flex container, menggantikan nilai alignment yang didefinisikan oleh properti `align-items` pada container tersebut. Properti ini memberikan kontrol individual terhadap alignment sebuah item, yang berarti Anda dapat menyesuaikan alignment sebuah item tanpa memengaruhi alignment item lainnya dalam container. Nilai dari `align-self` dapat berupa salah satu dari nilai alignment vertikal seperti `flex-start`, `flex-end`, `center`, `baseline`, atau `stretch`. Nilai defaultnya adalah `auto`, yang akan mewarisi nilai alignment dari container sesuai dengan nilai properti `align-items` di container tersebut.
+#### Kode
+```html
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>align-self di Flexbox</title>
+<style>
+  .container {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    align-items: center; 
+  }
+
+  .item {
+    margin: 10px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .item1 {
+    align-self: flex-start; 
+  }
+
+  .item2 {
+    align-self: center; 
+  }
+
+  .item3 {
+    align-self: flex-end; 
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+</body>
+</html>
+
+```
+#### Hasil
+![](Assets/aself.jpg)
+#### Kesimpulan
+Properti `align-self` dalam CSS Flexbox digunakan untuk mengontrol penempatan vertikal (alignment) dari sebuah item flex dalam sumbu lintang (cross-axis) terhadap flex container. Properti ini memberikan kontrol individual terhadap alignment sebuah item, yang memungkinkan Anda untuk menyesuaikan alignment sebuah item tanpa memengaruhi alignment item lainnya dalam container. Nilai dari `align-self` dapat berupa salah satu dari nilai alignment vertikal seperti `flex-start`, `flex-end`, `center`, `baseline`, atau `stretch`. Properti ini memberikan fleksibilitas dalam mengatur penempatan vertikal item-item dalam flex container secara individual.
+### flex
+#### Penjelasan
+Mungkin Anda ingin menjelaskan tentang properti `flex` di Flexbox. Properti `flex` adalah singkatan dari tiga properti utama dalam CSS Flexbox: `flex-grow`, `flex-shrink`, dan `flex-basis`. Ini memberikan cara singkat untuk mengatur ukuran, pertumbuhan, dan pengecilan item flex dalam flex container. Gabungan ketiga properti ini dalam satu aturan `flex` memungkinkan Anda untuk mengatur ukuran item flex secara lebih fleksibel dan efisien. Misalnya:
+
+```css
+.item {
+  flex: 1 0 100px; /* flex-grow: 1; flex-shrink: 0; flex-basis: 100px; */
+}
+```
+
+Dalam contoh ini, item flex akan memiliki `flex-grow: 1`, yang berarti akan memanfaatkan semua ruang tambahan yang tersedia, tetapi tidak akan mengecil; `flex-shrink: 0`, yang berarti item tidak akan mengecil saat ruang kurang; dan `flex-basis: 100px`, yang menentukan ukuran awal item sebelum tata letak flexbox diterapkan.
+#### Kode
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>flex di Flexbox</title>
+<style>
+  .container {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: lightgray;
+  }
+
+  .item {
+    margin: 10px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .item1 {
+    flex: 1 0 100px; 
+  }
+
+  .item2 {
+    flex: 2 0 150px; 
+  }
+
+  .item3 {
+    flex: 1 0 120px; 
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="item item1">Item 1</div>
+  <div class="item item2">Item 2</div>
+  <div class="item item3">Item 3</div>
+</div>
+</body>
+</html>
+
+```
+#### Hasil
+![](Assets/f.jpg)
+#### Kesimpulan
+Properti `flex` dalam CSS Flexbox merupakan singkatan dari tiga properti utama: `flex-grow`, `flex-shrink`, dan `flex-basis`. Ini memberikan cara singkat untuk mengatur ukuran, pertumbuhan, dan pengecilan item flex dalam flex container. Dengan menggunakan properti `flex`, Anda dapat dengan mudah mengatur item-item flex dengan satu aturan CSS, meningkatkan fleksibilitas dan efisiensi dalam tata letak halaman web.
 ## Tantangan flexbox
+### Deskripsi
+- Terdapat sebuah kontainer dengan kelas `.box-container`, yang memiliki tinggi 250px dan lebar 390px, dengan latar belakang warna ungu.
+- Di dalam `.box-container`, terdapat sebuah kontainer lagi dengan kelas `.main-container`, yang memiliki tinggi 220px dan lebar 360px. Kontainer ini juga memiliki latar belakang transparan.
+- `.main-container` memiliki dua elemen anak:
+  - Elemen pertama, `.hero-container`, memiliki tinggi 200px dan lebar 180px. Elemen ini berisi sebuah paragraf dengan teks "Selamat Datang di Web Ahsan!" yang ditampilkan dengan font Courier, ukuran 25px, dan warna putih.
+  - Elemen kedua, sebuah tombol dengan kelas `.box-item-3`, berisi teks "Klik disini!" yang memiliki warna dan border oranye. Ketika tombol tersebut dihover, ukurannya akan berubah dan tombol akan berputar 360 derajat.
+- Di dalam `.main-container`, terdapat juga sebuah gambar dengan kelas `.box-item-1`. Gambar tersebut memiliki latar belakang merah dengan border putih dan border radius lingkaran. Ukurannya adalah 150px x 150px.
+- Pengaturan flexbox digunakan untuk menata letak elemen-elemen tersebut secara fleksibel dan responsif, dengan menggunakan properti seperti `display`, `flex-direction`, `align-items`, dan `justify-content`.
 ### Kode program 
 ```html
 <!DOCKTYPE html>
@@ -2065,14 +2436,18 @@ After
 `position: sticky;` adalah properti CSS yang memungkinkan elemen untuk menempel pada posisi tertentu di dalam kontainer saat pengguna menggulir, dan kemudian berhenti menempel ketika mencapai batas tertentu dalam kontainer. Ini berguna untuk membuat elemen tertentu seperti header atau sidebar tetap terlihat saat pengguna menggulir konten di dalam sebuah kontainer.
 ## Tantangan Position
 ## Deskripsi
+- Terdapat sebuah div dengan kelas `.container` yang mengelompokkan seluruh konten.
+- Di dalam `.container`, terdapat tiga elemen utama:
+  1. `.item1`: Elemen ini berisi gambar dengan latar belakang merah dan ukuran 300px x 250px. Gambar tersebut diberi border-radius pada sudut atas.
+  2. `.item2`: Elemen ini berisi teks yang ditampilkan di tengah-tengah dengan menggunakan justify-content dan align-items center.
+  3. `.item3`: Elemen ini merupakan baris horizontal dengan tulisan "Read more" di kiri dan sebuah gambar di kanan. 
+- Terdapat juga sebuah tombol yang diberi kelas `.like`, dimana ketika tombol tersebut dihover, ukurannya akan mengecil (scale down) menjadi 75% dari ukuran aslinya.
+- Semua elemen tersebut ditata menggunakan CSS position absolute dengan koordinat yang sudah ditentukan untuk posisi relatif terhadap elemen induknya. Misalnya, tombol diberi posisi absolut di bagian kanan atas menggunakan properti top dan right.
 ## Kode
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tantangan Position</title>
     <style>
         body{
@@ -2141,10 +2516,9 @@ After
             background-color: transparent;
             border: none;
             border-radius: 100px 100px 100px 100px;
-            position: fixed;
-            background-repeat: no-repeat;
-            top: 350px;
-            right: 520px;
+            position: absolute;
+            top: 360px;
+            right: 800px;
         }
         .like img {
             border-radius: 100% ;
@@ -2158,6 +2532,9 @@ After
             justify-items: center;
             margin-right: 25px;
             margin-top: 10px;
+        }
+        button:hover {
+          transform: scale(0.75);
         }
     </style>
 </head>
