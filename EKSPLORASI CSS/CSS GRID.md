@@ -55,7 +55,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil program grid template column](EKSPLORASI%20CSS/Assets/1.png)
+![hasil program grid template column](Assets/1.png)
 
 ---
 ### grid-template-row
@@ -91,7 +91,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil program grid template row](EKSPLORASI%20CSS/Assets/2.png)
+![hasil program grid template row](Assets/2.png)
 
 ---
 ### grid-auto-colums
@@ -165,7 +165,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil program grid auto rows](4.png)
+![hasil program grid auto rows](Assets/4.png)
 
 ---
 ### grid-auto-flow
@@ -205,7 +205,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program grid auto flow](5.png)
+![hasil program grid auto flow](Assets/5.png)
 
 ---
 ### grid-template-areas
@@ -269,7 +269,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil program grid template areas](6.png)
+![hasil program grid template areas](Assets/6.png)
 
 ---
 ### grid-template
@@ -311,7 +311,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program grid template](7.png)
+![hasil program grid template](Assets/7.png)
 
 ---
 ### grid-column-gap
@@ -349,7 +349,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program grid column gap](8.png)
+![hasil program grid column gap](Assets/8.png)
 
 ---
 ### grid-row-gap
@@ -388,7 +388,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil program grid row gap](9.png)
+![hasil program grid row gap](Assets/9.png)
 
 ---
 ### justify-items
@@ -427,7 +427,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program justyfy items](10.png)
+![hasil program justyfy items](Assets/10.png)
 
 ---
 ### align-items
@@ -466,7 +466,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program align items](11.png)
+![hasil program align items](Assets/11.png)
 
 ---
 ### place-items
@@ -504,7 +504,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program place items ](12.png)
+![hasil program place items ](Assets/12.png)
 
 ---
 ### justify-content
@@ -542,7 +542,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program justyfy content ](13.png)
+![hasil program justyfy content ](Assets/13.png)
 
 ---
 ### align-content
@@ -583,7 +583,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program align content ](14.png)
+![hasil program align content ](Assets/14.png)
 
 ---
 ### place-content
@@ -624,7 +624,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 
 ```
 #### Hasil Program
-![hasil program place content ](15.png)
+![hasil program place content ](Assets/15.png)
 
 
 ---
@@ -689,7 +689,7 @@ Property `grid-column-start` dalam CSS digunakan untuk menentukan awal dari suat
 ```
 
 #### Hasil Program
-![hasil](16.png)
+![hasil](Assets/16.png)
 
 ---
 ### Grid-column-end
@@ -756,7 +756,7 @@ Beberapa hal yang perlu diingat tentang `grid-column-end`:
 ```
 
 #### Hasil Program
-![hasil](17.png)
+![hasil](Assets/17.png)
 
 ---
 ### Grid-row-start
@@ -823,7 +823,7 @@ Beberapa hal yang perlu diingat tentang `grid-row-start`:
 ```
 
 #### Hasil Program
-![hasil](18.png)
+![hasil](Assets/18.png)
 
 ---
 ### Grid-row-end
@@ -888,7 +888,7 @@ Beberapa hal yang perlu diingat tentang grid-row-end:
 ```
 
 #### Hasil Program
-![hasil](19.png)
+![hasil](Assets/19.png)
 
 ---
 ### Grid-column
@@ -955,7 +955,7 @@ Nilai yang diterima oleh grid-column bisa berupa:
 ```
 
 #### Hasil Program
-![hasil](20.png)
+![hasil](Assets/20.png)
 
 ---
 ### Grid-row
@@ -1022,7 +1022,7 @@ Nilai yang diterima oleh grid-row bisa berupa:
 ```
 
 #### Hasil Program
-![hasil](21.png)
+![hasil](Assets/21.png)
 
 ---
 ### Grid area
@@ -1081,7 +1081,7 @@ Dengan menggunakan grid-area, kita dapat menentukan nama area yang akan diduduki
 ```
 
 #### Hasil Program
-![hasil](22.png)
+![hasil](Assets/22.png)
 
 
 ---
@@ -1144,7 +1144,7 @@ Nilai yang dapat diberikan kepada justify-self antara lain:
 ```
 
 #### Hasil Program
-![hasil](23.png)
+![hasil](Assets/23.png)
 
 ---
 ### Align-self
@@ -1205,7 +1205,7 @@ Nilai yang dapat diberikan kepada align-self antara lain:
 ```
 
 #### Hasil Program
-![hasil](24.png)
+![hasil](Assets/24.png)
 
 
 ---
@@ -1267,7 +1267,7 @@ Nilai yang dapat diberikan kepada place-self mirip dengan nilai yang dapat diber
 ```
 
 #### Hasil Program
-![hasil](25.png)
+![hasil](Assets/25.png)
 
 
 ---
@@ -1458,4 +1458,4 @@ Web ini dibuat menggunakan Grid dengan memakai `grid-template-areas` sebagai tem
 ```
 
 ## Hasil Program
-![hasil web](26.png)
+![hasil web](Assets/26.png)

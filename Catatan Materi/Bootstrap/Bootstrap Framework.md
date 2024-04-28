@@ -1,7 +1,7 @@
 # Pengenalan Bootstrap
 ## Apa Itu Bootstrap?
 Bootstrap adalah salah satu dari banyak framework front-end yang ada di web development. Framework-front end menyediakan serangkaian alat dan gaya bawaan untuk mempercepat proses pengembangan web dengan menyediakan komponen-komponen UI siap pakai dan sistem grid yang responsif. Bootstrap khususnya, terkenal dengan kemampuannya dalam menciptakan tata letak yang responsif dan komponen-komponen UI yang seragam.
-# Instalasi Bootstrap
+# Instalasi Booptstrap
 ## Cara instalasi Bootstrap secara online / CDN.
 sekarang kita akan menjelaskan bagaimana cara menginstall bootstrap secara online. Berikut langkah-langkahnya:
 
@@ -811,3 +811,4 @@ Manfaatkan grid sistem Bootstrap untuk mengatur tata letak (layout) situs Anda d
 Manfaatkan komponen-komponen yang disediakan oleh Bootstrap seperti navbar, card, form, dll. Komponen-komponen ini sudah dirancang dan diuji untuk memastikan konsistensi dan fungsionalitas yang baik.
 ## Uji pada Berbagai Browser:
 Pastikan situs Anda berfungsi dengan baik di berbagai browser, termasuk versi lama dan baru, dengan melakukan pengujian silang browser.
+
