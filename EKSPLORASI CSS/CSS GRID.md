@@ -55,7 +55,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil program grid template column](Assets/1.png)
+![hasil program grid template column](Assets/a.png)
 
 ---
 ### grid-template-row

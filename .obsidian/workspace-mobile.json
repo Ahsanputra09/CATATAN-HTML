@@ -37,7 +37,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "OPSIONAL/Materi Memakai Obsidian/Tes tes.md",
+                            "file": "getbootstrap.com.md",
                             "mode": "source",
                             "source": false
                           }
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "OPSIONAL/Materi Memakai Obsidian/Tes tes.md",
+            "file": "getbootstrap.com.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "OPSIONAL/Materi Memakai Obsidian/Tes tes.md",
+            "file": "getbootstrap.com.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "OPSIONAL/Materi Memakai Obsidian/Tes tes.md"
+            "file": "getbootstrap.com.md"
           }
         }
       }
@@ -232,14 +232,16 @@
   },
   "active": "1e2c3a7f5aec6701",
   "lastOpenFiles": [
-    "Basis data/Instalasi & Query Awal Database.md",
     "EKSPLORASI CSS/CSS GRID.md",
+    "EKSPLORASI CSS/Assets/a.png",
+    "Basis data/SELECT LANJUTAN.md",
+    "Catatan Materi/Bootstrap/Bootstrap Framework.md",
+    "getbootstrap.com.md",
     "OPSIONAL/Materi Memakai Obsidian/Tes tes.md",
+    "Basis data/Instalasi & Query Awal Database.md",
     "Basis data/ALTER.md",
     "Bootstrap Framework.md",
-    "Basis data/SELECT LANJUTAN.md",
     "Basis data/Pengenalan basis data.md",
-    "Catatan Materi/Bootstrap/Bootstrap Framework.md",
     "Catatan Materi/CATATAN CSS/PENGENALAN CSS.md",
     "Catatan Materi/Css Responsive/CSS Responsive.md",
     "CSS/PENGENALAN CSS.md",
@@ -266,10 +268,7 @@
     "Tugas Eksplorasi/Assets/gta.jpg",
     "Tugas Eksplorasi/Assets/gaf.jpg",
     "Tugas Eksplorasi/Assets/gar.jpg",
-    "Tugas Eksplorasi/Assets/gac.jpg",
     "CSS Grid Properties/Assets",
-    "Pembelajaran HTML/1) Pertemuan 1.md",
-    "Catatan Materi/Semantic HTML/SEMANTIC HTML.md",
     "CSS Grid Properties",
     "Assets",
     "Assets basisdata",

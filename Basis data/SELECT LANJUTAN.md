@@ -841,7 +841,7 @@ SELECT MIN(nama_kolom) AS nama_alias FROM nama_tabel;
 SELECT MIN(harga_rental) AS MINIMAL FROM mobil;
 ```
 #### Hasil
-![](Assets/min.jpg)
+![hasil](Assets/min.jpg)
 #### Analisis
 1. `SELECT`: Perintah SQL yang digunakan untuk memilih data dari tabel atau melakukan operasi seperti penghitungan atau pengelompokan.
 
@@ -862,7 +862,7 @@ SELECT MAX(nama_kolom) AS nama_alias FROM nama_tabel;
 SELECT MAX(harga_rental) AS MIXIMAL FROM mobil;
 ```
 #### Hasil
-![](Assets/max.jpg)
+![hasil](Assets/max.jpg)
 #### Analisis
 1. `SELECT`: Ini adalah perintah SQL yang digunakan untuk memilih data dari tabel atau melakukan operasi seperti penghitungan atau pengelompokan.
 
@@ -883,7 +883,7 @@ SELECT AVG(nama_kolom) AS nama_alias FROM nama_tabel;
 SELECT AVG(harga_rental) AS RATA_RATA FROM mobil;
 ```
 #### Hasil
-![](Assets/Avrg.jpg)
+![hasil](Assets/avrg.jpg)
 #### Analisis
 1. `SELECT`: Ini adalah perintah SQL yang digunakan untuk memilih data dari tabel atau melakukan operasi seperti penghitungan atau pengelompokan.
 
