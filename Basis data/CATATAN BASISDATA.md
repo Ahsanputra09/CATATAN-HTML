@@ -348,7 +348,7 @@ INSERT INTO pelanggan Values
 (2, "taufiq","adiguna",'087928736'),(3,"fatur","rahman",'082673647'),(4,"alfahrezi","Raihan",'08237647');
 ```
 #### Hasil
-![hasil insert lebih 1 baris](Assets/insertl1b.jpg)
+![hasil insert lebih 1 baris](Assets/Insertl1b.jpg)
 #### Analisis
 `(2, "taufiq","adiguna",'087928736'),` = untuk menambah data seperti id_pelanggan: 2, nama_depan: 'taufiq', nama_belakang: 'adiguna', no_telp: '087928736' pada tabel.
 `(3,"fatur","rahman",'082673647'),` = untuk menambah data seperti id_pelanggan: 3, nama_depan: 'fatur', nama_belakang: 'rahman', no_telp: '082673647' pada tabel.
@@ -371,7 +371,7 @@ SELECT * FROM pelanggan;
 ```
 
 #### Hasil
-![hasil select all](Assets/select_all.jpg)
+![hasil select all](Assets/Select_all.jpg)
 
 #### Analisis
 `SELECT * FROM pelanggan;` : `SELECT` Memilih data dari basis data, `*` (Asterisk) Memilih semua kolom dalam tabel yang ditentukan, `FROM` Menentukan tabel mana yang ingin Anda ambil data dari. `pelanggan` Nama tabel yang diambil data dari.
@@ -472,7 +472,7 @@ drop table putra_table;
 ```
 
 ## Hasil
-![hasil delete tabel ](Assets/delete_table.jpg)
+![hasil delete tabel ](Assets/DELETE_TABLE.jpg)
 ## Analisis
 `drop table putra_table;` : digunakan untuk menghapus tabel yang bernama `putra_table` dari database.
 ## Kesimpulan
