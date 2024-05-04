@@ -533,7 +533,7 @@ SELECT * FROM mobil WHERE peminjam IS NOT NULL;
 `SELECT * FROM mobil WHERE peminjam IS NOT NULL;` digunakan untuk memilih data dari tabel "mobil" di mana nilai kolom peminjam bukan NULL, atau memiliki nilai yang diberikan.
 
 ---
-## ORDER BY
+## ORDER BY & LIMIT
 ### MENGURUTKAN DATA DARI DATA TERKECIL
 #### Struktur query
 ```mySQL
@@ -579,6 +579,31 @@ SELECT * FROM mobil ORDER BY harga_rental DESC;
 
 #### Kesimpulan
 `SELECT * FROM mobil ORDER BY harga_rental DESC;` digunakan untuk memilih semua data dari tabel "mobil" dan mengurutkannya berdasarkan harga sewa (harga_rental) secara descending, yaitu dari harga terbesar hingga terkecil.
+
+---
+### LIMIT
+#### Struktur query
+```mysql
+SELECT * FROM nama_tabel WHERE nama_kolom1 = ”kondisi_kolom1” ORDER BY nama_kolom2 ASC LIMIT 2;
+```
+#### Contoh query
+```mysql
+SELECT * FROM mobil WHERE warna="Hitam" ORDER BY harga_rental ASC LIMIT 2;
+```
+#### Hasil
+![](Assets/limit.jpg)
+#### Analisis
+Mari kita analisis langkah per langkah:
+
+1. `SELECT * FROM mobil:` Ini adalah perintah SQL yang digunakan untuk memilih semua kolom dari tabel "`mobil`".
+
+2. `WHERE warna="Hitam"`: Ini adalah klausa `WHERE` yang memfilter baris-baris di mana nilai kolom "`warna`" adalah "`Hitam`".
+
+3. `ORDER BY harga_rental ASC`: Ini adalah klausa `ORDER BY` yang mengurutkan hasil berdasarkan kolom "`harga_rental`" secara menaik (`ASC`).
+
+4. LIMIT 2: Ini adalah klausa `LIMIT` yang membatasi jumlah baris hasil yang dikembalikan menjadi 2 baris.
+#### Kesimpulan
+Perintah `SELECT * FROM mobil WHERE warna="Hitam" ORDER BY harga_rental ASC LIMIT 2;` akan mengambil dua baris data dari tabel "`mobil`" di mana nilai kolom "`warna`" adalah "`Hitam`", diurutkan dari harga sewa mobil yang terendah. Pastikan data yang dikembalikan sesuai dengan kebutuhan aplikasi Anda.
 
 ---
 ## DISTINCT
