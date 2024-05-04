@@ -25,13 +25,26 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "EKSPLORASI CSS/CSS GRID.md",
+                            "file": "Basis data/Instalasi & Query Awal Database.md",
+                            "mode": "source",
+                            "source": false
+                          }
+                        }
+                      },
+                      {
+                        "id": "1e2c3a7f5aec6701",
+                        "type": "leaf",
+                        "state": {
+                          "type": "markdown",
+                          "state": {
+                            "file": "Basis data/ALTER.md",
                             "mode": "source",
                             "source": false
                           }
                         }
                       }
-                    ]
+                    ],
+                    "currentTab": 1
                   },
                   {
                     "id": "a4e8a3f9b5f6755e",
@@ -170,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "EKSPLORASI CSS/CSS GRID.md",
+            "file": "Basis data/ALTER.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -187,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "EKSPLORASI CSS/CSS GRID.md",
+            "file": "Basis data/ALTER.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -199,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "EKSPLORASI CSS/CSS GRID.md"
+            "file": "Basis data/ALTER.md"
           }
         }
       }
@@ -217,30 +230,34 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "4475eef21ce90247",
+  "active": "1e2c3a7f5aec6701",
   "lastOpenFiles": [
-    "Catatan Materi/Bootstrap/Bootstrap Framework.md",
-    "B_f1.jpg.md",
-    "Catatan Materi/Bootstrap/assets/bf-r1.png",
+    "Basis data/Instalasi & Query Awal Database.md",
+    "Basis data/ALTER.md",
     "EKSPLORASI CSS/CSS GRID.md",
+    "Catatan Materi/Bootstrap/Bootstrap Framework.md",
+    "Catatan Materi/CATATAN CSS/PENGENALAN CSS.md",
+    "Catatan Materi/Css Responsive/CSS Responsive.md",
     "CSS/PENGENALAN CSS.md",
+    "Pembelajaran HTML/CATATAN HTML.md",
+    "Basis data/SELECT LANJUTAN.md",
+    "Materi PHP/PHP.md",
+    "Materi PHP",
+    "B_f1.jpg.md",
+    "Basis data/Pengenalan basis data.md",
+    "Basis data/CATATAN BASISDATA.md",
+    "Catatan Materi/Bootstrap/assets/bf-r1.png",
     "Assets/b_f.md",
     "Assets/GCG.md",
     "Assets/padding_left.md",
     "Assets/padding_right.md",
     "1Materi/Css Responsive/CSS Responsive.md",
-    "Basis data/SELECT LANJUTAN.md",
-    "Basis data/Instalasi & Query Awal Database.md",
     "CSS Grid Properties/CONTAINER.md",
-    "Basis data/ALTER.md",
     "Materi Memakai Obsidian/5_6123089390756434478.md",
-    "Basis data/CATATAN BASISDATA.md",
     "Pembelajaran HTML/4) pengenalan HTML.md",
     "Pembelajaran HTML/3) Deskripsikan html,css, javascript rumah.md",
-    "Pembelajaran HTML/CATATAN HTML.md",
     "CSS/Assets/tantangan_flexbox.jpg",
     "CSS/Assets/Screenshot_2024-04-16-22-14-45-739-edit_com.foxdebug.acodefree.jpg",
-    "Basis data/Pengenalan basis data.md",
     "Tugas Eksplorasi/Assets/grg.jpg",
     "Tugas Eksplorasi/Assets/gcg.jpg",
     "Tugas Eksplorasi/Assets/gt.jpg",
@@ -251,19 +268,15 @@
     "CSS Grid Properties/Assets",
     "Pembelajaran HTML/1) Pertemuan 1.md",
     "Catatan Materi/Semantic HTML/SEMANTIC HTML.md",
-    "Catatan Materi/Css Responsive/CSS Responsive.md",
     "CSS Grid Properties",
     "Catatan Materi/Github/Github & Git.md",
     "Assets",
     "Basis data/Select Lanjutan 28 February.md",
-    "Basis data/Basis data.md",
-    "Pembelajaran HTML/2) Kesimpulan vidio.md",
     "Assets basisdata",
     "HTML/Assets/Assets",
     "Pembelajaran HTML/Assets",
     "Basis data/Assets",
     "Assetss",
-    "CSS/Assets",
-    "Spaces/Untitled"
+    "CSS/Assets"
   ]
 }

@@ -762,68 +762,110 @@ UPDATE mobil SET peminjam=NULL WHERE id_mobil="3";
 ### NO 3
 >[!info]
 >BERIKAN KESIMPULAN KENAPA TABEL VIRTUAL DIBUAT.
-
 #### Kesimpulannya
-
+Tabel virtual dibuat untuk menyediakan pandangan yang terstruktur dan terpusat pada subset data tertentu dari tabel "mobil". Dalam hal ini, tabel virtual "peminjamnya_NULL" hanya akan menampilkan data mobil yang belum dipinjam, yaitu data yang memiliki nilai null di kolom "peminjam". Hal ini memungkinkan untuk melakukan query atau analisis lebih lanjut terhadap data tersebut tanpa harus memodifikasi struktur tabel asli "mobil". Dengan menggunakan VIEW, dapat mempermudah penggunaan dan akses data yang sesuai dengan kebutuhan tertentu.
 ## AGREGASI
 ### Sum
 #### Struktur query
 ```mysql
-
+SELECT SUM(nama_kolom) AS nama_alias FROM nama_tabel;
 ```
 #### Contoh query
 ```mysql
-SELECT SUM(harga_rental)AS total FROM mobil;
+SELECT SUM(harga_rental) AS total FROM mobil;
 ```
 #### Hasil
+![](Assets/sum.jpg)
 #### Analisis
+1. `SELECT`: Ini adalah perintah SQL yang digunakan untuk memilih data dari tabel atau melakukan operasi seperti penghitungan atau pengelompokan.
+2. `SUM(harga_rental)`: Ini adalah fungsi agregasi yang digunakan untuk menjumlahkan nilai-nilai dalam kolom "harga_rental".
+3. `AS total`: Ini adalah bagian dari perintah yang memberikan nama alias "total" pada hasil perhitungan yang diberikan oleh fungsi SUM(harga_rental).
+4. `FROM mobil`: Ini adalah klausa yang menunjukkan bahwa data yang dipilih akan diambil dari tabel bernama "mobil".
 #### Kesimpulan
+Perintah SQL tersebut digunakan untuk menghitung total harga rental dari semua mobil yang ada dalam tabel "mobil" dan menampilkan hasilnya dengan nama alias "total".
 ### Count
 #### Struktur query
 ```mysql
-
+SELECT count(nama_kolom) FROM nama_tabel;
 ```
 #### Contoh query
 ```mysql
-SELECT COUNT(peminjam) FROM mobil
+SELECT COUNT(pemilik) FROM mobil;
+```
+
+```mysql
+SELECT COUNT(peminjam) FROM mobil;
 ```
 #### Hasil
+![](Assets/count.jpg)
 #### Analisis
+1. `SELECT`: Ini adalah perintah SQL yang digunakan untuk memilih data dari tabel atau melakukan operasi seperti penghitungan atau pengelompokan.
+
+2. `COUNT(pemilik)`: Ini adalah fungsi agregasi yang digunakan untuk menghitung jumlah baris dalam kolom "pemilik" yang memiliki nilai tidak null. 
+
+3. `FROM mobil`: Ini adalah klausa yang menunjukkan bahwa data yang dipilih akan diambil dari tabel bernama "mobil".
 #### Kesimpulan
+Perintah SQL tersebut digunakan untuk menghitung jumlah entri dalam kolom "pemilik" yang memiliki nilai tidak null dalam tabel "mobil".
 ### Min
 #### Struktur query
 ```mysql
-
+SELECT MIN(nama_kolom) AS nama_alias FROM nama_tabel;
 ```
 #### Contoh query
 ```mysql
 SELECT MIN(harga_rental) AS MINIMAL FROM mobil;
 ```
 #### Hasil
+![](Assets/min.jpg)
 #### Analisis
+1. `SELECT`: Perintah SQL yang digunakan untuk memilih data dari tabel atau melakukan operasi seperti penghitungan atau pengelompokan.
+
+2. `MIN(harga_rental)`: Fungsi agregasi yang digunakan untuk mencari nilai terkecil dari kolom "harga_rental".
+
+3. `AS MINIMAL`: Nama alias yang diberikan pada hasil perhitungan nilai terkecil tersebut.
+
+4. `FROM mobil`: Klausa yang menunjukkan bahwa data yang dipilih akan diambil dari tabel bernama "mobil".
 #### Kesimpulan
+Perintah SQL tersebut digunakan untuk mencari nilai terkecil dari kolom "harga_rental" dalam tabel "mobil" dan menampilkannya dengan nama alias "MINIMAL".
 ### Max
 #### Struktur query
 ```mysql
-
+SELECT MAX(nama_kolom) AS nama_alias FROM nama_tabel;
 ```
 #### Contoh query
 ```mysql
 SELECT MAX(harga_rental) AS MIXIMAL FROM mobil;
 ```
 #### Hasil
+![](Assets/max.jpg)
 #### Analisis
-#### Kesimpulan
+1. `SELECT`: Ini adalah perintah SQL yang digunakan untuk memilih data dari tabel atau melakukan operasi seperti penghitungan atau pengelompokan.
 
+2. `MAX(harga_rental)`: Ini adalah fungsi agregasi yang digunakan untuk mencari nilai terbesar dari kolom "harga_rental".
+
+3. `AS MIXIMAL`: Ini adalah bagian dari perintah yang memberikan nama alias "MIXIMAL" pada hasil perhitungan nilai terbesar tersebut.
+
+4. `FROM mobil`: Ini adalah klausa yang menunjukkan bahwa data yang dipilih akan diambil dari tabel bernama "mobil".
+#### Kesimpulan
+Perintah SQL tersebut digunakan untuk mencari nilai terbesar dari kolom "harga_rental" dalam tabel "mobil" dan menampilkannya dengan nama alias "MIXIMAL".
 ### AVG
 #### Struktur query
 ```mysql
-
+SELECT AVG(nama_kolom) AS nama_alias FROM nama_tabel;
 ```
 #### Contoh query
 ```mysql
 SELECT AVG(harga_rental) AS RATA_RATA FROM mobil;
 ```
 #### Hasil
+![](Assets/Avrg.jpg)
 #### Analisis
+1. `SELECT`: Ini adalah perintah SQL yang digunakan untuk memilih data dari tabel atau melakukan operasi seperti penghitungan atau pengelompokan.
+
+2. `AVG(harga_rental)`: Ini adalah fungsi agregasi yang digunakan untuk menghitung rata-rata dari nilai-nilai dalam kolom "harga_rental".
+
+3. `AS RATA_RATA`: Ini adalah bagian dari perintah yang memberikan nama alias "RATA_RATA" pada hasil perhitungan rata-rata tersebut.
+
+4. `FROM mobil`: Ini adalah klausa yang menunjukkan bahwa data yang dipilih akan diambil dari tabel bernama "mobil".
 #### Kesimpulan
+Perintah SQL tersebut digunakan untuk menghitung rata-rata harga rental dari semua mobil yang ada dalam tabel "mobil" dan menampilkan hasilnya dengan nama alias "RATA_RATA".
