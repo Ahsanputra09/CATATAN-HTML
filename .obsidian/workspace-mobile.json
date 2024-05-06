@@ -37,7 +37,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Basis data/CATATAN BASISDATA.md",
+                            "file": "Materi PHP/PHP.md",
                             "mode": "source",
                             "source": false
                           }
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/CATATAN BASISDATA.md",
+            "file": "Materi PHP/PHP.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/CATATAN BASISDATA.md",
+            "file": "Materi PHP/PHP.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/CATATAN BASISDATA.md"
+            "file": "Materi PHP/PHP.md"
           }
         }
       }
@@ -232,8 +232,20 @@
   },
   "active": "1e2c3a7f5aec6701",
   "lastOpenFiles": [
+    "Materi PHP/Assets/pru.4.jpg",
+    "Materi PHP/Assets/pru.3.jpg",
+    "Materi PHP/Assets/pru.2.jpg",
+    "Materi PHP/Assets/pru.1.jpg",
+    "Materi PHP/Assets/array.3.jpg",
+    "Materi PHP/Assets/array.2.jpg",
+    "Materi PHP/Assets/array.1.jpg",
+    "Materi PHP/Assets/if.4.jpg",
+    "Materi PHP/Assets/if.3.jpg",
+    "Materi PHP/Assets/if.2.jpg",
+    "Materi PHP/Assets/if.1.jpg",
+    "Materi PHP/Assets",
+    "Basis data/CATATAN BASISDATA.md",
     "EKSPLORASI CSS/CSS GRID.md",
-    "EKSPLORASI CSS/Assets/a.png",
     "Basis data/SELECT LANJUTAN.md",
     "Catatan Materi/Bootstrap/Bootstrap Framework.md",
     "getbootstrap.com.md",
@@ -249,8 +261,6 @@
     "Materi PHP/PHP.md",
     "Materi PHP",
     "B_f1.jpg.md",
-    "Basis data/CATATAN BASISDATA.md",
-    "Catatan Materi/Bootstrap/assets/bf-r1.png",
     "Assets/b_f.md",
     "Assets/GCG.md",
     "Assets/padding_left.md",
@@ -260,14 +270,6 @@
     "Materi Memakai Obsidian/5_6123089390756434478.md",
     "Pembelajaran HTML/4) pengenalan HTML.md",
     "Pembelajaran HTML/3) Deskripsikan html,css, javascript rumah.md",
-    "CSS/Assets/tantangan_flexbox.jpg",
-    "CSS/Assets/Screenshot_2024-04-16-22-14-45-739-edit_com.foxdebug.acodefree.jpg",
-    "Tugas Eksplorasi/Assets/grg.jpg",
-    "Tugas Eksplorasi/Assets/gcg.jpg",
-    "Tugas Eksplorasi/Assets/gt.jpg",
-    "Tugas Eksplorasi/Assets/gta.jpg",
-    "Tugas Eksplorasi/Assets/gaf.jpg",
-    "Tugas Eksplorasi/Assets/gar.jpg",
     "CSS Grid Properties/Assets",
     "CSS Grid Properties",
     "Assets",
@@ -275,7 +277,6 @@
     "HTML/Assets/Assets",
     "Pembelajaran HTML/Assets",
     "Basis data/Assets",
-    "Assetss",
-    "CSS/Assets"
+    "Assetss"
   ]
 }
