@@ -128,7 +128,7 @@ mempelajari CSS Grid membantu anda untuk membuat tata letak halaman web yang leb
 </html>
 ```
 #### Hasil Program
-![hasil program grid auto columns](3.png)
+![hasil program grid auto columns](Assets/3.png)
 
 ---
 ### grid-auto-rows

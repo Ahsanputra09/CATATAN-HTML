@@ -25,7 +25,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Basis data/Instalasi & Query Awal Database.md",
+                            "file": "Basis data/! Instalasi & Query Awal Database.md",
                             "mode": "source",
                             "source": false
                           }
@@ -37,7 +37,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Materi PHP/PHP.md",
+                            "file": "Materi PHP/PHP dasar.md",
                             "mode": "source",
                             "source": false
                           }
@@ -56,7 +56,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Basis data/Instalasi & Query Awal Database.md",
+                            "file": "Basis data/! Instalasi & Query Awal Database.md",
                             "mode": "source",
                             "backlinks": false,
                             "source": false
@@ -134,7 +134,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:#tampilkan",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Materi PHP/PHP.md",
+            "file": "Materi PHP/PHP dasar.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Materi PHP/PHP.md",
+            "file": "Materi PHP/PHP dasar.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Materi PHP/PHP.md"
+            "file": "Materi PHP/PHP dasar.md"
           }
         }
       }
@@ -230,53 +230,53 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "1e2c3a7f5aec6701",
+  "active": "4475eef21ce90247",
   "lastOpenFiles": [
-    "Materi PHP/Assets/pru.4.jpg",
-    "Materi PHP/Assets/pru.3.jpg",
-    "Materi PHP/Assets/pru.2.jpg",
-    "Materi PHP/Assets/pru.1.jpg",
-    "Materi PHP/Assets/array.3.jpg",
-    "Materi PHP/Assets/array.2.jpg",
-    "Materi PHP/Assets/array.1.jpg",
-    "Materi PHP/Assets/if.4.jpg",
-    "Materi PHP/Assets/if.3.jpg",
-    "Materi PHP/Assets/if.2.jpg",
-    "Materi PHP/Assets/if.1.jpg",
-    "Materi PHP/Assets",
+    "Materi PHP/PHP Mysql.md",
+    "Materi PHP/PHP dasar.md",
+    "bal/Praktikum 8.md",
+    "PhpMyAdmin/Hasil Tantangan.md",
+    "Basis data/! Instalasi & Query Awal Database.md",
+    "Praktikum basis data/praktikum8/Praktikum 8.md",
+    "Basis data/! SELECT LANJUTAN.md",
+    "Praktikum basis data/praktikum9/Praktikum 9.md",
+    "Praktikum basis data/praktikum8.zip",
+    "Basis data/! ALTER.md",
+    "Praktikum basis data/Praktikum 9.md",
+    "Praktikum basis data/praktikum8/Praktikum 9.md",
+    "Praktikum basis data/praktikum8/Assets/pp3.jpg",
+    "Praktikum basis data/praktikum8/Assets/qq2.jpg",
+    "Praktikum basis data/praktikum8/Assets/pp2.jpg",
+    "Praktikum basis data/praktikum8/Assets/qq1.jpg",
+    "Praktikum basis data/praktikum8/Assets/pp1.jpg",
+    "Praktikum basis data/praktikum8/Assets/zz3.jpg",
+    "Praktikum basis data/praktikum8/Assets/zz2.jpg",
+    "Praktikum basis data/praktikum8/Assets/qq3.jpg",
+    "Praktikum basis data/praktikum8/Assets/zz1.jpg",
+    "Praktikum basis data/praktikum8/Assets",
+    "Praktikum basis data/praktikum8",
+    "Basis data/GROUP BY & HAVING.md",
+    "Basis data/Pengenalan basis data.md",
     "Basis data/CATATAN BASISDATA.md",
+    "Untitled.md",
+    "Materi PHP/Assets/ip8.jpg",
+    "Materi PHP/Untitled.md",
+    "Praktikum basis data/Praktikum 8.md",
+    "Praktikum basis data",
+    "CSS/PENGENALAN CSS.md",
+    "PhpMyAdmin",
+    "Materi PHP/Assets",
     "EKSPLORASI CSS/CSS GRID.md",
-    "Basis data/SELECT LANJUTAN.md",
     "Catatan Materi/Bootstrap/Bootstrap Framework.md",
     "getbootstrap.com.md",
     "OPSIONAL/Materi Memakai Obsidian/Tes tes.md",
-    "Basis data/Instalasi & Query Awal Database.md",
-    "Basis data/ALTER.md",
     "Bootstrap Framework.md",
-    "Basis data/Pengenalan basis data.md",
     "Catatan Materi/CATATAN CSS/PENGENALAN CSS.md",
     "Catatan Materi/Css Responsive/CSS Responsive.md",
-    "CSS/PENGENALAN CSS.md",
     "Pembelajaran HTML/CATATAN HTML.md",
-    "Materi PHP/PHP.md",
     "Materi PHP",
-    "B_f1.jpg.md",
-    "Assets/b_f.md",
-    "Assets/GCG.md",
-    "Assets/padding_left.md",
-    "Assets/padding_right.md",
-    "1Materi/Css Responsive/CSS Responsive.md",
-    "CSS Grid Properties/CONTAINER.md",
-    "Materi Memakai Obsidian/5_6123089390756434478.md",
-    "Pembelajaran HTML/4) pengenalan HTML.md",
-    "Pembelajaran HTML/3) Deskripsikan html,css, javascript rumah.md",
     "CSS Grid Properties/Assets",
     "CSS Grid Properties",
-    "Assets",
-    "Assets basisdata",
-    "HTML/Assets/Assets",
-    "Pembelajaran HTML/Assets",
-    "Basis data/Assets",
-    "Assetss"
+    "Assets"
   ]
 }
