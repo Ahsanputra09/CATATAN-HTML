@@ -6,7 +6,7 @@ EXCEPT
 SELECT productID FROM sales; 
 ```
 ## Hasil query
-![](Assets/pp3.jpg)
+![](Praktikum%20basis%20data/praktikum8/Assets/pp3.jpg)
 ## Analisis
 `SELECT` : untuk memilih kolom mana saja yang ingin ditampilkan / digabung.
 `productID` : nama kolom yang dipilih untuk digabungkan.
@@ -17,9 +17,9 @@ SELECT productID FROM sales;
 `FROM sales` : untuk memilih dari tabel mana saja yang data kolomnya akan di gabung.
 HASILNYA : hanya 4 yang tidak memiliki data yang sama.
 ## TABEL productsdumy
-![](Assets/pp1.jpg)
+![](Praktikum%20basis%20data/praktikum8/Assets/pp1.jpg)
 ## TABEL Sales
-![](Assets/pp2.jpg)
+![](Praktikum%20basis%20data/praktikum8/Assets/pp2.jpg)
 # nomor 8
 ## Query
 ```mysql
@@ -29,7 +29,7 @@ CROSS JOIN departemen
 ORDER BY pegawai.ID ASC;
 ```
 ## Hasil query
-![](Assets/qq3.jpg)
+![](Praktikum%20basis%20data/praktikum8/Assets/qq3.jpg)
 ## Analisis
 `SELECT` : untuk memilih kolom mana saja yang ingin ditampilkan / digabung.
 `pegawai.ID, pegawai.Nama` : kolom ID dan nama dari tabel pegawai dipilih.
@@ -40,6 +40,6 @@ ORDER BY pegawai.ID ASC;
 `ORDER BY pegawai.ID ASC` : untuk mengurutkan data berdasarkan kolom ID dari pegawai secara (Ascending) terkecil ke terbesar.
 HASILNYA : masing-masing data kolom digabung satu sama lain, Jeijo dengan HRD dan Marketing, Gianna dengan HRD dan Marketing.
 ## TABEL pegawai
-![](Assets/qq1.jpg)
+![](Praktikum%20basis%20data/praktikum8/Assets/qq1.jpg)
 ## TABEL departemen
-![](Assets/qq2.jpg)
+![](Praktikum%20basis%20data/praktikum8/Assets/qq2.jpg)

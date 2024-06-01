@@ -5,7 +5,7 @@ SELECT OrderID, CustID, OrderDate, RequiredDate, ShippedDate
 FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret');
 ```
 ## Hasil query
-![](praktikum/Praktikum%209/IMG/zz3.jpg)
+![hasil](IMG/zz3.jpg)
 ## Analisis
 - `SELECT` : untuk memilih kolam mana saja yang ingin ditampilkan. 
 - `OrderID, CustID, OrderDate, RequiredDate, ShippedDate` : merupakan nama-nama kolom yang dipilih untuk ditampilkan.
@@ -13,9 +13,9 @@ FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret'
 - `EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret')` : merupakan kondisi dari WHERE yang harus dipenuhi.
 - HASILNYA : jadi dalam query ada subquery ya itu pada bagian kondisi `WHERE` ada lagi `SELECT` yang kedua, dalam situ dia memilih kolom `EmpID` dari tabel `Employees` yang kolom `FirstName` nya berisi `Margaret`. Kondisinya ada lah mereka hanya menampilkan data yang kolom `EmpID` nya memiliki data yang sama dengan kolom `EmpID` pada tabel `Employees` yang kolom `FirstName` nya `Margaret`. Iya itu 5. Jadi barisan data yang memiliki `EmpID` 5 yang akan ditampilkan yaitu barisan data `EASTC` , `SEVES` , `MAISD` , `ALFKI` , dan `ISLAT`
 ## tabel orders
-![](praktikum/Praktikum%209/IMG/zz1.jpg)
+![](IMG/zz1.jpg)
 ## tabel employees
-![](praktikum/Praktikum%209/IMG/zz2.jpg)
+![](IMG/zz2.jpg)
 
 #  NOMOR 2-4 
 ## 2.QUERY:
@@ -23,7 +23,8 @@ FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret'
  select * from employes where salary > (select AVG(salary) from employes);
 ```
 
-## HASIL:![GAMBAR](nomor2.png)
+## HASIL:
+![GAMBAR](IMG/nomor2.png)
 ## ANALISIS:
 - `select` perintah untuk menampilkan data.
 - `from` adalah perintah untuk pemanggilan dari tabel.
@@ -41,7 +42,7 @@ QUERY diatas merupakan perintah untuk mencari rata-rata pada sebuah kolom salary
 ```
 
 ## HASIL:
-![GAMBAR](nomor3.png)
+![GAMBAR](IMG/nomor3.png)
 ## ANALISA:
 - `select` perintah untuk menampilkan data.
 - `from` adalah perintah untuk pemanggilan dari tabel.
@@ -60,7 +61,7 @@ select * from employes where salary > SOME (select salary from employes where ti
 ```
 
 ## HASIL:
-![gambar](nomor4.png)
+![gambar](IMG/nomor4.png)
 ## ANALISA:
 - `select` perintah untuk menampilkan data.
 - `from` adalah perintah untuk pemanggilan dari tabel.
@@ -74,9 +75,9 @@ select * from employes where salary > SOME (select salary from employes where ti
 QUERY diatas adalah perintah untuk menampilkan secara keseluruhan, query ini akan menghasilkan baris-baris dari tabel "employes" di mana gaji setiap karyawan lebih besar dari setidaknya satu gaji karyawan dengan jabatan "sales rep."
 
 ## tabel orders
-![](praktikum/Praktikum%209/IMG/zz1.jpg)
+![](IMG/zz1.jpg)
 ## tabel employees
-![](praktikum/Praktikum%209/IMG/zz2.jpg)
+![](IMG/zz2.jpg)
 
 # Nomor 5-6
 
@@ -87,7 +88,7 @@ QUERY diatas adalah perintah untuk menampilkan secara keseluruhan, query ini aka
 ```
 
 ## Hasil 
-![gambar](nomor5.png)
+![gambar](IMG/nomor5.png)
 
 ## Analisis
 - `select * from employes` adalah menampilkan seluruh data employes.
@@ -103,7 +104,7 @@ select * from employes where empid in (select empid from orders group by empid h
 ```
 
 ## Hasil 
-![GAMBAR](nomor6.png)
+![GAMBAR](IMG/nomor6.png)
 
 ## Analisis
 - `select * from employes` adalah menampilkan seluruh data employes.

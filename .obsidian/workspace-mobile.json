@@ -37,7 +37,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "praktikum/praktikum 8/Praktikum 8.md",
+                            "file": "praktikum/Praktikum 9.md",
                             "mode": "source",
                             "source": false
                           }
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "praktikum/praktikum 8/Praktikum 8.md",
+            "file": "praktikum/Praktikum 9.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "praktikum/praktikum 8/Praktikum 8.md",
+            "file": "praktikum/Praktikum 9.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "praktikum/praktikum 8/Praktikum 8.md"
+            "file": "praktikum/Praktikum 9.md"
           }
         }
       }
@@ -232,9 +232,18 @@
   },
   "active": "1e2c3a7f5aec6701",
   "lastOpenFiles": [
+    "praktikum/Praktikum 8.md",
+    "praktikum/Praktikum 9.md",
+    "praktikum/Assets/qq3.jpg",
+    "praktikum/Assets/pp2.jpg",
+    "praktikum/Assets/qq2.jpg",
+    "praktikum/Assets/pp3.jpg",
+    "praktikum/Assets/pp1.jpg",
+    "praktikum/Assets/qq1.jpg",
+    "praktikum/Assets",
     "praktikum/Praktikum 9/KELOMPOK 5 PRAKTIKUM 9.md",
-    "Materi PHP/PHP Mysql.md",
     "praktikum/praktikum 8/Praktikum 8.md",
+    "Materi PHP/PHP Mysql.md",
     "praktikum/praktikum 8/Untitled.canvas",
     "Basis data/! Instalasi & Query Awal Database.md",
     "Materi PHP/PHP dasar.md",
@@ -251,18 +260,12 @@
     "Praktikum basis data/praktikum8/Assets/qq2.jpg",
     "Praktikum basis data/praktikum8/Assets/pp2.jpg",
     "Praktikum basis data/praktikum8/Assets/qq1.jpg",
-    "Praktikum basis data/praktikum8/Assets/pp1.jpg",
-    "Praktikum basis data/praktikum8/Assets/zz3.jpg",
-    "Praktikum basis data/praktikum8/Assets/zz2.jpg",
-    "Praktikum basis data/praktikum8/Assets/qq3.jpg",
-    "Praktikum basis data/praktikum8/Assets/zz1.jpg",
     "Praktikum basis data/praktikum8/Assets",
     "Praktikum basis data/praktikum8",
     "Basis data/GROUP BY & HAVING.md",
     "Basis data/Pengenalan basis data.md",
     "Basis data/CATATAN BASISDATA.md",
     "Untitled.md",
-    "Materi PHP/Assets/ip8.jpg",
     "Materi PHP/Untitled.md",
     "Praktikum basis data/Praktikum 8.md",
     "Praktikum basis data",
@@ -273,11 +276,8 @@
     "Catatan Materi/Bootstrap/Bootstrap Framework.md",
     "getbootstrap.com.md",
     "OPSIONAL/Materi Memakai Obsidian/Tes tes.md",
-    "Bootstrap Framework.md",
-    "Catatan Materi/CATATAN CSS/PENGENALAN CSS.md",
     "Materi PHP",
     "CSS Grid Properties/Assets",
-    "CSS Grid Properties",
-    "Assets"
+    "CSS Grid Properties"
   ]
 }
