@@ -139,7 +139,7 @@ SELECT ProductsID FROM products UNION SELECT ProductID FROM OrderDetails;
 ```
 
 
-![[Pasted image 20240514132843.png]]
+![](aset/aset92.png)
 
 - SELECT untuk memilih kolom mana saja Yang ingin ditampilkan dan dari tabel mana kolom tersebut dipilih.
 - Product ID: Adalah nama kolom yang dipilih unutk digabungkan .
@@ -158,10 +158,10 @@ SELECT ProductID FROM products UNION ALL SELECT ProductID FROM OrderDetails;
 
 ## Hasil
 
-![[Pasted image 20240514133254.png]]
+![](aset/mysql93.png)
 
 
-![[Pasted image 20240514133212.png]]
+![](aset/mysql94.png)
 - SELECT = untuk memilih kolom mana saja yang ingin ditampilkan/digabung.
 - FROM Products = untuk memilih dari tabel mana saja yang data kolomnya akan digabung
 - ProductID = adalah nama kolom yang dipilih untuk digabungkan
@@ -179,7 +179,7 @@ SELECT ProductID FROM products INTERSECT SELECT ProductID FROM OrderDetails;
 
 
 ## Hasil
-![[Pasted image 20240514133443.png]]
+![](aset/mysql95.png)
 
 - SELECT = untuk memilih kolom mana saja yang ingin ditampilkan/digabung
 - Product ID = adalah nama kolam Yand dipilih untut digabungkan.

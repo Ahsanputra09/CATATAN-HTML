@@ -37,7 +37,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Materi PHP/PHP dasar.md",
+                            "file": "praktikum/praktikum 8/Praktikum 8.md",
                             "mode": "source",
                             "source": false
                           }
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Materi PHP/PHP dasar.md",
+            "file": "praktikum/praktikum 8/Praktikum 8.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Materi PHP/PHP dasar.md",
+            "file": "praktikum/praktikum 8/Praktikum 8.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Materi PHP/PHP dasar.md"
+            "file": "praktikum/praktikum 8/Praktikum 8.md"
           }
         }
       }
@@ -230,13 +230,16 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "4475eef21ce90247",
+  "active": "1e2c3a7f5aec6701",
   "lastOpenFiles": [
+    "praktikum/Praktikum 9/KELOMPOK 5 PRAKTIKUM 9.md",
     "Materi PHP/PHP Mysql.md",
+    "praktikum/praktikum 8/Praktikum 8.md",
+    "praktikum/praktikum 8/Untitled.canvas",
+    "Basis data/! Instalasi & Query Awal Database.md",
     "Materi PHP/PHP dasar.md",
     "bal/Praktikum 8.md",
     "PhpMyAdmin/Hasil Tantangan.md",
-    "Basis data/! Instalasi & Query Awal Database.md",
     "Praktikum basis data/praktikum8/Praktikum 8.md",
     "Basis data/! SELECT LANJUTAN.md",
     "Praktikum basis data/praktikum9/Praktikum 9.md",
@@ -272,8 +275,6 @@
     "OPSIONAL/Materi Memakai Obsidian/Tes tes.md",
     "Bootstrap Framework.md",
     "Catatan Materi/CATATAN CSS/PENGENALAN CSS.md",
-    "Catatan Materi/Css Responsive/CSS Responsive.md",
-    "Pembelajaran HTML/CATATAN HTML.md",
     "Materi PHP",
     "CSS Grid Properties/Assets",
     "CSS Grid Properties",
