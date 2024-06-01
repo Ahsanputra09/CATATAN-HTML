@@ -6,7 +6,7 @@ SELECT p.ProductID, p.ProductName, od.Quantity, p.UnitsInStock
     -> ORDER BY p.ProductID ASC;
 ```
 ## HASIL
-![](aset/mysql89.jpeg)
+![](mysql89.jpeg)
 
 ### ANALISIS 
 1. **SELECT p.ProductID, p.ProductName, od.Quantity, p.UnitsInStock**
@@ -51,7 +51,7 @@ SELECT p.ProductID, p.ProductName, p.UnitPrice, od.Quantity, p.UnitsInStock
     -> ORDER BY p.ProductID ASC;
 ```
 ## HASIL 
-![](aset/mysql90.jpeg)
+![](mysql90.jpeg)
 ## ANALISIS 
 1. **SELECT p.ProductID, p.ProductName, p.UnitPrice, od.Quantity, p.UnitsInStock**
     
@@ -96,7 +96,7 @@ SELECT p.ProductID, p.ProductName, p.UnitPrice, od.Quantity, p.UnitsInStock
     -> ORDER BY p.ProductID ASC;
 ```
 ## HASIL 
-![](aset/mysql91.jpeg)
+![](mysql91.jpeg)
 
 ## ANALISIS 
 1. **SELECT p.ProductID, p.ProductName, p.UnitPrice, od.Quantity, p.UnitsInStock**
@@ -139,7 +139,7 @@ SELECT ProductsID FROM products UNION SELECT ProductID FROM OrderDetails;
 ```
 
 
-![](aset/aset92.png)
+![](aset92.png)
 
 - SELECT untuk memilih kolom mana saja Yang ingin ditampilkan dan dari tabel mana kolom tersebut dipilih.
 - Product ID: Adalah nama kolom yang dipilih unutk digabungkan .
@@ -158,10 +158,10 @@ SELECT ProductID FROM products UNION ALL SELECT ProductID FROM OrderDetails;
 
 ## Hasil
 
-![](aset/mysql93.png)
+![](mysql93.png)
 
 
-![](aset/mysql94.png)
+![](mysql94.png)
 - SELECT = untuk memilih kolom mana saja yang ingin ditampilkan/digabung.
 - FROM Products = untuk memilih dari tabel mana saja yang data kolomnya akan digabung
 - ProductID = adalah nama kolom yang dipilih untuk digabungkan
@@ -179,7 +179,7 @@ SELECT ProductID FROM products INTERSECT SELECT ProductID FROM OrderDetails;
 
 
 ## Hasil
-![](aset/mysql95.png)
+![](mysql95.png)
 
 - SELECT = untuk memilih kolom mana saja yang ingin ditampilkan/digabung
 - Product ID = adalah nama kolam Yand dipilih untut digabungkan.
@@ -199,7 +199,7 @@ EXCEPT
 SELECT productID FROM sales; 
 ```
 ## Hasil query
-![](praktikum/aset/Assets/pp3.jpg)
+![](TUGAS%20PRAKTIKUM/Assets/pp3.jpg)
 ## Analisis
 `SELECT` : untuk memilih kolom mana saja yang ingin ditampilkan / digabung.
 `productID` : nama kolom yang dipilih untuk digabungkan.
@@ -210,9 +210,9 @@ SELECT productID FROM sales;
 `FROM sales` : untuk memilih dari tabel mana saja yang data kolomnya akan di gabung.
 HASILNYA : hanya 4 yang tidak memiliki data yang sama.
 ## TABEL productsdumy
-![](praktikum/aset/Assets/pp1.jpg)
+![](TUGAS%20PRAKTIKUM/Assets/pp1.jpg)
 ## TABEL Sales
-![](praktikum/aset/Assets/pp2.jpg)
+![](TUGAS%20PRAKTIKUM/Assets/pp2.jpg)
 # nomor 8
 ## Query
 ```mysql
@@ -222,7 +222,7 @@ CROSS JOIN departemen
 ORDER BY pegawai.ID ASC;
 ```
 ## Hasil query
-![](praktikum/aset/Assets/qq3.jpg)
+![](TUGAS%20PRAKTIKUM/Assets/qq3.jpg)
 ## Analisis
 `SELECT` : untuk memilih kolom mana saja yang ingin ditampilkan / digabung.
 `pegawai.ID, pegawai.Nama` : kolom ID dan nama dari tabel pegawai dipilih.
@@ -233,6 +233,6 @@ ORDER BY pegawai.ID ASC;
 `ORDER BY pegawai.ID ASC` : untuk mengurutkan data berdasarkan kolom ID dari pegawai secara (Ascending) terkecil ke terbesar.
 HASILNYA : masing-masing data kolom digabung satu sama lain, Jeijo dengan HRD dan Marketing, Gianna dengan HRD dan Marketing.
 ## TABEL pegawai
-![](praktikum/aset/Assets/qq1.jpg)
+![](TUGAS%20PRAKTIKUM/Assets/qq1.jpg)
 ## TABEL departemen
-![](praktikum/aset/Assets/qq2.jpg)
+![](TUGAS%20PRAKTIKUM/Assets/qq2.jpg)
