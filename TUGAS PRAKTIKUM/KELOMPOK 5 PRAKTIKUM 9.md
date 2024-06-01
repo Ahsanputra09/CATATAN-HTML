@@ -24,7 +24,7 @@ FROM orders WHERE EmpID = (SELECT EmpID FROM Emloyees WHERE FirstName='Margaret'
 ```
 
 ## HASIL:
-![GAMBAR](IMG/nomor2.PNG)
+![GAMBAR](IMG/nomor2.png)
 ## ANALISIS:
 - `select` perintah untuk menampilkan data.
 - `from` adalah perintah untuk pemanggilan dari tabel.
