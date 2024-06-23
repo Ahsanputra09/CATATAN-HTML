@@ -37,7 +37,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "TUGAS PRAKTIKUM/KELOMPOK 5 PRAKTIKUM 9.md",
+                            "file": "Basis data/! SELECT LANJUTAN.md",
                             "mode": "source",
                             "source": false
                           }
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "TUGAS PRAKTIKUM/KELOMPOK 5 PRAKTIKUM 9.md",
+            "file": "Basis data/! SELECT LANJUTAN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "TUGAS PRAKTIKUM/KELOMPOK 5 PRAKTIKUM 9.md",
+            "file": "Basis data/! SELECT LANJUTAN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "TUGAS PRAKTIKUM/KELOMPOK 5 PRAKTIKUM 9.md"
+            "file": "Basis data/! SELECT LANJUTAN.md"
           }
         }
       }
@@ -232,12 +232,24 @@
   },
   "active": "1e2c3a7f5aec6701",
   "lastOpenFiles": [
+    "Basis data/GROUP BY & HAVING.md",
+    "Basis data/! SELECT LANJUTAN.md",
+    "Basis data/Hasil Relasi.md",
+    "Basis data/CATATAN BASISDATA.md",
+    "PhpMyAdmin/Hasil Tantangan.md",
+    "CSS/PENGENALAN CSS.md",
+    "CSS/Assets/hb2.jpg",
+    "CSS/Assets/hb1.jpg",
+    "Materi PHP/PHP dasar.md",
+    "PhpMyAdmin/Assets/queryr.jpg",
+    "Materi PHP/PHP Mysql.md",
+    "EKSPLORASI CSS/CSS GRID.md",
     "Basis data/! Instalasi & Query Awal Database.md",
+    "Pembelajaran HTML/CATATAN HTML.md",
     "TUGAS PRAKTIKUM/KELOMPOK 5 PRAKTIKUM 9.md",
     "TUGAS PRAKTIKUM/IMG/nomor2.png",
     "TUGAS PRAKTIKUM/Praktikum 8.md",
     "TUGAS PRAKTIKUM/Praktikum 9.md",
-    "PhpMyAdmin/Hasil Tantangan.md",
     "TUGAS PRAKTIKUM/Assets/qq3.jpg",
     "TUGAS PRAKTIKUM/Assets/pp2.jpg",
     "TUGAS PRAKTIKUM/Assets/qq2.jpg",
@@ -247,34 +259,23 @@
     "TUGAS PRAKTIKUM/Assets",
     "praktikum/Praktikum 9/KELOMPOK 5 PRAKTIKUM 9.md",
     "praktikum/praktikum 8/Praktikum 8.md",
-    "Materi PHP/PHP Mysql.md",
     "praktikum/praktikum 8/Untitled.canvas",
-    "Materi PHP/PHP dasar.md",
     "bal/Praktikum 8.md",
     "Praktikum basis data/praktikum8/Praktikum 8.md",
-    "Basis data/! SELECT LANJUTAN.md",
     "Praktikum basis data/praktikum9/Praktikum 9.md",
     "Praktikum basis data/praktikum8.zip",
     "Basis data/! ALTER.md",
     "Praktikum basis data/Praktikum 9.md",
     "Praktikum basis data/praktikum8/Praktikum 9.md",
-    "Praktikum basis data/praktikum8/Assets/pp3.jpg",
-    "Praktikum basis data/praktikum8/Assets/qq2.jpg",
-    "Praktikum basis data/praktikum8/Assets/pp2.jpg",
     "Praktikum basis data/praktikum8/Assets",
     "Praktikum basis data/praktikum8",
-    "Basis data/GROUP BY & HAVING.md",
     "Basis data/Pengenalan basis data.md",
-    "Basis data/CATATAN BASISDATA.md",
     "Untitled.md",
     "Materi PHP/Untitled.md",
     "Praktikum basis data/Praktikum 8.md",
     "Praktikum basis data",
-    "CSS/PENGENALAN CSS.md",
     "PhpMyAdmin",
     "Materi PHP/Assets",
-    "EKSPLORASI CSS/CSS GRID.md",
-    "Catatan Materi/Bootstrap/Bootstrap Framework.md",
     "Materi PHP",
     "CSS Grid Properties/Assets",
     "CSS Grid Properties"

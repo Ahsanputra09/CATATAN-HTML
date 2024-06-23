@@ -19,3 +19,7 @@
 # Hasil Relasi (Designer)
 ![](Assets/h8.jpg)
 # Query relasi dan hasil
+## Query relasi
+![](Assets/queryr.jpg)
+## hasil
+![](Assets/h8.jpg)
