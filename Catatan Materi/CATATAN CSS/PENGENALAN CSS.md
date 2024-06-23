@@ -1361,6 +1361,246 @@ Property `transition-timing-function` pada CSS digunakan untuk menentukan bagaim
 ![](Assets/ttf.jpg)
 #### Kesimpulan
 `transition-timing-function` pada CSS adalah property yang digunakan untuk mengatur kurva waktu yang menentukan bagaimana perubahan properti akan dipercepat atau diperlambat selama periode transisi. Ini memungkinkan Anda untuk menciptakan berbagai efek transisi, mulai dari perubahan yang mulus hingga perubahan yang tajam, sesuai dengan kebutuhan desain Anda.
+
+## Study kasus
+### Deskripsi
+#### HTML:
+
+1. **DOCTYPE Declaration**:
+   ```html
+   <!DOCKTYPE html>
+   ```
+   Ini adalah salah ketik. Seharusnya diganti menjadi `<!DOCTYPE html>` untuk mendeklarasikan jenis dokumen HTML5.
+
+2. **Tag HTML**:
+   ```html
+   <html>
+   ```
+   Ini adalah tag pembuka untuk dokumen HTML.
+
+3. **Tag Head**:
+   ```html
+   <head>
+     <title>Belajar CSS</title>
+   </head>
+   ```
+   Bagian ini berisi metadata dan informasi lainnya tentang halaman web, termasuk judul yang ditampilkan di tab browser.
+
+4. **Tag Style**:
+   ```html
+   <style>
+     ...
+   </style>
+   ```
+   Ini adalah bagian di mana aturan CSS untuk halaman web didefinisikan secara internal.
+
+5. **Tag Body**:
+   ```html
+   <body>
+     <div class="box-container">
+       <div class="main-container">
+         <div class="hero-contaoner">
+           <p class="item box-item-2">Selamat Datang<br><b>di Web Ahsan!</b></p>
+           <button class="item box-item-3">Klik disini!</button>
+         </div>
+         <img class="box-item-1" src="alter.png" alt="buset">
+       </div>
+     </div>
+   </body>
+   ```
+   Bagian ini berisi konten yang ditampilkan di halaman web. Terdapat beberapa kontainer div yang berturut-turut menyusun struktur tata letak halaman.
+
+#### CSS:
+
+1. **.box-container**:
+   ```css
+   .box-container {
+     height: 250px;
+     width: 390px;
+     background-color: purple;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+   }
+   ```
+   Ini adalah gaya untuk kontainer utama dengan background ungu, menggunakan flexbox untuk menata isi secara horizontal dengan mengatur ruang sekitar konten.
+
+2. **.main-container**:
+   ```css
+   .main-container {
+     height: 220px;
+     width: 360px;
+     background-color: transparent;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+   }
+   ```
+   Kontainer ini memiliki background transparan dan juga menggunakan flexbox untuk menata isi secara horizontal dengan mengatur ruang sekitar konten.
+
+3. **.hero-contaoner** (Typo):
+   ```css
+   .hero-contaoner {
+     height: 200px;
+     width: 180px;
+     background-color: transparent;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+   }
+   ```
+   Kontainer ini memiliki background transparan dan menggunakan flexbox untuk menata isi secara vertikal dengan mengatur ruang sekitar konten.
+
+4. **.box-item-1**:
+   ```css
+   .box-item-1 {
+     background-color: red;
+     height: 150px;
+     width: 150px;
+     border-radius: 100%;
+     border: 7px solid white;
+   }
+   ```
+   Gaya untuk gambar (`img`) dengan background merah, lingkaran, dan bingkai putih.
+
+5. **.box-item-2**:
+   ```css
+   .box-item-2 {
+     background-color: transparent;
+     font-family: courier;
+     font-size: 25px;
+     color: white;
+     width: 180px;
+     height: 75px;
+     margin-top: 50px;
+   }
+   ```
+   Gaya untuk paragraf (`p`) dengan font Courier, ukuran 25px, dan warna putih.
+
+6. **.box-item-3**:
+   ```css
+   .box-item-3 {
+     width: 90px;
+     height: 45px;
+     background-color: transparent;
+     color: orangered;
+     font-size: 12px;
+     border: 1px solid orangered;
+     margin-left: 70px;
+     margin-bottom: 20px;
+   }
+   ```
+   Gaya untuk tombol (`button`) dengan warna teks oranye merah, border oranye, dan ukuran serta jarak tertentu dari konten sekitarnya.
+
+7. **.box-item-3:hover**:
+   ```css
+   .box-item-3:hover {
+     transform: rotate(360deg);
+     background-color: blue;
+     height: 205px;
+     width: 100px;
+     cursor: pointer;
+     transition: all 0.4s ease-in-out;
+   }
+   ```
+   Gaya untuk saat tombol diberi hover, dengan efek animasi rotasi, perubahan warna latar belakang menjadi biru, dan perubahan ukuran tombol dengan transisi selama 0.4 detik.
+
+### Kode
+```html
+<!DOCKTYPE html>
+<html>
+  <head>
+    <title>Belajar CSS </title>
+    <style>
+      .box-container {
+        height: 250px;
+        width: 390px;
+        background-color:purple;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+      }
+      .main-container{
+        height: 220px;
+        width: 360px;
+        background-color:transparent;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .hero-contaoner{
+        height: 200px;
+        width: 180px;
+        background-color:transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .box-item-1 {
+        background-color: red;
+        height: 105px;
+        border-radius: 100% 100%;
+        border-width:7px ;
+        border-style: solid;
+        border-color: white;
+        height: 150px;
+        width: 150px;
+      }
+      .box-item-2 {
+        background-color: transparent;
+        font-family: courier;
+        font-size: 25px;
+        color: white;
+        width: 180px;
+        height: 75px;
+        margin-top: 50px;
+      }
+      .box-item-3 {
+      width: 90px;
+      height: 45px;
+      background-color: transparent;
+      color: orangered;
+      font-size: 12px;
+      border-color: orangered;
+      margin-left: 70px;
+      margin-bottom: 20px;
+      }
+      .box-item-3:hover {
+        transform: rotate(360deg);
+        background-color: blue;
+        height: 205px;
+        width: 100px;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="box-container">
+      <div class="main-container">
+        <div class="hero-contaoner">
+          <p class="item box-item-2">Selamat Datang<br><b>di Web Ahsan!</b></p>
+          <button class="item box-item-3">Klik disini!</button>
+        </div>
+      <img class="box-item-1" src="alter.png" alt="buset">
+      </div>
+    </div>
+  </body>
+</html>
+```
+### Hasil
+#### Before
+![](Assets/hb1.jpg)
+#### After 
+![](Assets/hb2.jpg)
 # Transform
 ## transform: scale
 ### Penjelasan
@@ -2435,7 +2675,7 @@ After
 ### Kesimpulan
 `position: sticky;` adalah properti CSS yang memungkinkan elemen untuk menempel pada posisi tertentu di dalam kontainer saat pengguna menggulir, dan kemudian berhenti menempel ketika mencapai batas tertentu dalam kontainer. Ini berguna untuk membuat elemen tertentu seperti header atau sidebar tetap terlihat saat pengguna menggulir konten di dalam sebuah kontainer.
 ## Tantangan Position
-## Deskripsi
+### Deskripsi
 - Terdapat sebuah div dengan kelas `.container` yang mengelompokkan seluruh konten.
 - Di dalam `.container`, terdapat tiga elemen utama:
   1. `.item1`: Elemen ini berisi gambar dengan latar belakang merah dan ukuran 300px x 250px. Gambar tersebut diberi border-radius pada sudut atas.
@@ -2443,7 +2683,7 @@ After
   3. `.item3`: Elemen ini merupakan baris horizontal dengan tulisan "Read more" di kiri dan sebuah gambar di kanan. 
 - Terdapat juga sebuah tombol yang diberi kelas `.like`, dimana ketika tombol tersebut dihover, ukurannya akan mengecil (scale down) menjadi 75% dari ukuran aslinya.
 - Semua elemen tersebut ditata menggunakan CSS position absolute dengan koordinat yang sudah ditentukan untuk posisi relatif terhadap elemen induknya. Misalnya, tombol diberi posisi absolut di bagian kanan atas menggunakan properti top dan right.
-## Kode
+### Kode
 ```html
 <!DOCTYPE html>
 <html>
@@ -2561,5 +2801,5 @@ After
 </body>
 </html>
 ```
-## Hasil
+### Hasil
 ![](Assets/t_p.jpg)

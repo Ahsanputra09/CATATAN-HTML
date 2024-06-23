@@ -419,7 +419,7 @@ drop table putra_table;
 ```
 
 ## Hasil
-![hasil delete tabel ](Assets/delete_table.jpg)
+![hasil delete tabel ](Assets/DELETE_TABLE.jpg)
 ## Analisis
 `drop table putra_table;` : digunakan untuk menghapus tabel yang bernama `putra_table` dari database.
 ## Kesimpulan

@@ -35,11 +35,9 @@
                         "id": "1e2c3a7f5aec6701",
                         "type": "leaf",
                         "state": {
-                          "type": "markdown",
+                          "type": "image",
                           "state": {
-                            "file": "Basis data/! SELECT LANJUTAN.md",
-                            "mode": "source",
-                            "source": false
+                            "file": "Basis data/Assets/delete_tabel.jpg"
                           }
                         }
                       }
@@ -183,7 +181,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/! SELECT LANJUTAN.md",
+            "file": "Basis data/Assets/delete_tabel.jpg",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +198,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/! SELECT LANJUTAN.md",
+            "file": "Basis data/Assets/delete_tabel.jpg",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +210,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/! SELECT LANJUTAN.md"
+            "file": "Basis data/Assets/delete_tabel.jpg"
           }
         }
       }
@@ -232,8 +230,13 @@
   },
   "active": "1e2c3a7f5aec6701",
   "lastOpenFiles": [
-    "Basis data/GROUP BY & HAVING.md",
+    "Basis data/Assets/DELETE_TABLE.jpg",
+    "Basis data/! Instalasi & Query Awal Database.md",
     "Basis data/! SELECT LANJUTAN.md",
+    "Basis data/Assets/delete_tabel.jpg",
+    "Basis data/Assets/hapus_database.jpg",
+    "Catatan Materi/CATATAN CSS/PENGENALAN CSS.md",
+    "Basis data/GROUP BY & HAVING.md",
     "Basis data/Hasil Relasi.md",
     "Basis data/CATATAN BASISDATA.md",
     "PhpMyAdmin/Hasil Tantangan.md",
@@ -244,7 +247,6 @@
     "PhpMyAdmin/Assets/queryr.jpg",
     "Materi PHP/PHP Mysql.md",
     "EKSPLORASI CSS/CSS GRID.md",
-    "Basis data/! Instalasi & Query Awal Database.md",
     "Pembelajaran HTML/CATATAN HTML.md",
     "TUGAS PRAKTIKUM/KELOMPOK 5 PRAKTIKUM 9.md",
     "TUGAS PRAKTIKUM/IMG/nomor2.png",
@@ -253,9 +255,6 @@
     "TUGAS PRAKTIKUM/Assets/qq3.jpg",
     "TUGAS PRAKTIKUM/Assets/pp2.jpg",
     "TUGAS PRAKTIKUM/Assets/qq2.jpg",
-    "TUGAS PRAKTIKUM/Assets/pp3.jpg",
-    "TUGAS PRAKTIKUM/Assets/pp1.jpg",
-    "TUGAS PRAKTIKUM/Assets/qq1.jpg",
     "TUGAS PRAKTIKUM/Assets",
     "praktikum/Praktikum 9/KELOMPOK 5 PRAKTIKUM 9.md",
     "praktikum/praktikum 8/Praktikum 8.md",
@@ -271,8 +270,6 @@
     "Praktikum basis data/praktikum8",
     "Basis data/Pengenalan basis data.md",
     "Untitled.md",
-    "Materi PHP/Untitled.md",
-    "Praktikum basis data/Praktikum 8.md",
     "Praktikum basis data",
     "PhpMyAdmin",
     "Materi PHP/Assets",
