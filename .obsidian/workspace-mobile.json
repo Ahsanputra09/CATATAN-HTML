@@ -25,7 +25,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Basis data/! Instalasi & Query Awal Database.md",
+                            "file": "Basis data/Instalasi & Query Awal Database.md",
                             "mode": "source",
                             "source": false
                           }
@@ -35,9 +35,11 @@
                         "id": "1e2c3a7f5aec6701",
                         "type": "leaf",
                         "state": {
-                          "type": "image",
+                          "type": "markdown",
                           "state": {
-                            "file": "Basis data/Assets/delete_tabel.jpg"
+                            "file": "Basis data/SELECT LANJUTAN.md",
+                            "mode": "source",
+                            "source": false
                           }
                         }
                       }
@@ -54,7 +56,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Basis data/! Instalasi & Query Awal Database.md",
+                            "file": "Basis data/Instalasi & Query Awal Database.md",
                             "mode": "source",
                             "backlinks": false,
                             "source": false
@@ -181,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/Assets/delete_tabel.jpg",
+            "file": "Basis data/SELECT LANJUTAN.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -198,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/Assets/delete_tabel.jpg",
+            "file": "Basis data/SELECT LANJUTAN.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -210,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/Assets/delete_tabel.jpg"
+            "file": "Basis data/SELECT LANJUTAN.md"
           }
         }
       }
@@ -230,10 +232,11 @@
   },
   "active": "1e2c3a7f5aec6701",
   "lastOpenFiles": [
-    "Basis data/Assets/DELETE_TABLE.jpg",
-    "Basis data/! Instalasi & Query Awal Database.md",
-    "Basis data/! SELECT LANJUTAN.md",
+    "Basis data/ALTER.md",
+    "Basis data/SELECT LANJUTAN.md",
+    "Basis data/Instalasi & Query Awal Database.md",
     "Basis data/Assets/delete_tabel.jpg",
+    "Basis data/Assets/DELETE_TABLE.jpg",
     "Basis data/Assets/hapus_database.jpg",
     "Catatan Materi/CATATAN CSS/PENGENALAN CSS.md",
     "Basis data/GROUP BY & HAVING.md",
@@ -263,7 +266,6 @@
     "Praktikum basis data/praktikum8/Praktikum 8.md",
     "Praktikum basis data/praktikum9/Praktikum 9.md",
     "Praktikum basis data/praktikum8.zip",
-    "Basis data/! ALTER.md",
     "Praktikum basis data/Praktikum 9.md",
     "Praktikum basis data/praktikum8/Praktikum 9.md",
     "Praktikum basis data/praktikum8/Assets",

@@ -181,7 +181,7 @@ SELECT * FROM mobil WHERE harga_rental != 50000;
  `SELECT * FROM mobil WHERE harga_rental != 50000;` digunakan untuk memilih semua kolom dari tabel "mobil" di mana nilai kolom harga_rental tidak sama dengan 50.000.
 
 ---
-## TANTANGAN
+## Tantangan
 ### Struktur query
 ```MySQL
 
@@ -203,6 +203,33 @@ select pemilik from mobil where pemilik="Ahsan";
 - `pemilik="Ahsan"` : Kondisi di mana nilai kolom pemilik harus sama dengan "Ahsan".
 ### Kesimpulan
  `SELECT pemilik FROM mobil WHERE pemilik="Ahsan";` digunakan untuk memilih nilai dari kolom "pemilik" dari tabel "mobil" di mana nilai kolom "pemilik" sama dengan "Ahsan".
+
+---
+## Tantangan Login
+### Struktur query
+```mysql
+SELECT nama_kolom1 FROM nama_tabel WHERE kondisi;
+```
+### Contoh query
+```mysql
+SELECT nama FROM Akun WHERE id=1;
+```
+### Hasil
+![](Assets/tl.jpg)
+### Analisis
+1. `SELECT`:
+   - Kata kunci `SELECT` digunakan untuk menentukan kolom mana yang ingin kita ambil dari tabel
+   - Dalam kasus ini, kolom yang ingin diambil adalah `nama`
+
+2. `FROM Akun`:
+   - Kata kunci `FROM` digunakan untuk menentukan tabel dari mana kita akan mengambil data
+   - Dalam kasus ini, tabel yang digunakan adalah `Akun`
+
+3. `WHERE id=1`:
+   - Kata kunci `WHERE` digunakan untuk menyaring baris berdasarkan kondisi tertentu
+   - Dalam kasus ini, kondisinya adalah `id=1`, yang berarti hanya baris yang memiliki nilai kolom `id` sama dengan 1 yang akan dipilih
+### Kesimpulan
+`SELECT nama FROM Akun WHERE id=1;` mengambil nilai kolom `nama` dari tabel `Akun` untuk baris yang memiliki `id` sama dengan 1.
 
 ---
 ## IN
