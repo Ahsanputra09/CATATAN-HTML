@@ -37,7 +37,7 @@
                         "state": {
                           "type": "markdown",
                           "state": {
-                            "file": "Basis data/SELECT LANJUTAN.md",
+                            "file": "PROJEK DART.md",
                             "mode": "source",
                             "source": false
                           }
@@ -183,7 +183,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Basis data/SELECT LANJUTAN.md",
+            "file": "PROJEK DART.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Basis data/SELECT LANJUTAN.md",
+            "file": "PROJEK DART.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -212,7 +212,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Basis data/SELECT LANJUTAN.md"
+            "file": "PROJEK DART.md"
           }
         }
       }
@@ -232,28 +232,28 @@
   },
   "active": "1e2c3a7f5aec6701",
   "lastOpenFiles": [
-    "Basis data/ALTER.md",
+    "Materi PHP/PHP dasar.md",
+    "TUGAS PRAKTIKUM/KELOMPOK 5 PRAKTIKUM 9.md",
+    "TUGAS PRAKTIKUM/Praktikum 8.md",
+    "Materi PHP/PHP Mysql.md",
+    "Catatan Materi/CATATAN CSS/PENGENALAN CSS.md",
+    "CSS/PENGENALAN CSS.md",
     "Basis data/SELECT LANJUTAN.md",
+    "Basis data/ALTER.md",
     "Basis data/Instalasi & Query Awal Database.md",
     "Basis data/Assets/delete_tabel.jpg",
     "Basis data/Assets/DELETE_TABLE.jpg",
     "Basis data/Assets/hapus_database.jpg",
-    "Catatan Materi/CATATAN CSS/PENGENALAN CSS.md",
     "Basis data/GROUP BY & HAVING.md",
     "Basis data/Hasil Relasi.md",
     "Basis data/CATATAN BASISDATA.md",
     "PhpMyAdmin/Hasil Tantangan.md",
-    "CSS/PENGENALAN CSS.md",
     "CSS/Assets/hb2.jpg",
     "CSS/Assets/hb1.jpg",
-    "Materi PHP/PHP dasar.md",
     "PhpMyAdmin/Assets/queryr.jpg",
-    "Materi PHP/PHP Mysql.md",
     "EKSPLORASI CSS/CSS GRID.md",
     "Pembelajaran HTML/CATATAN HTML.md",
-    "TUGAS PRAKTIKUM/KELOMPOK 5 PRAKTIKUM 9.md",
     "TUGAS PRAKTIKUM/IMG/nomor2.png",
-    "TUGAS PRAKTIKUM/Praktikum 8.md",
     "TUGAS PRAKTIKUM/Praktikum 9.md",
     "TUGAS PRAKTIKUM/Assets/qq3.jpg",
     "TUGAS PRAKTIKUM/Assets/pp2.jpg",
